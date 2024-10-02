@@ -1,0 +1,1001 @@
+studentID,gender,race/ethnicity,parental level of education,lunch,test preparation course,math score,math_rank,reading score,reading_rank,writing score,writing_rank,average score,status,academic performance
+1,female,group B,bachelor's degree,standard,none,72,M_B,72,R_B,74,W_B,72.67,Pass,good
+2,female,group C,some college,standard,completed,69,M_B,90,R_A,88,W_A,82.33,Pass,good
+3,female,group B,master's degree,standard,none,90,M_A,95,R_A,93,W_A,92.67,Pass,excellent
+4,male,group A,associate's degree,free/reduced,none,47,M_C,57,R_B,44,W_C,49.33,Fail,below average
+5,male,group C,some college,standard,none,76,M_B,78,R_B,75,W_B,76.33,Pass,good
+6,female,group B,associate's degree,standard,none,71,M_B,83,R_A,78,W_B,77.33,Pass,good
+7,female,group B,some college,standard,completed,88,M_A,95,R_A,92,W_A,91.67,Pass,excellent
+8,male,group B,some college,free/reduced,none,40,M_C,43,R_C,39,W_C,40.67,Fail,below average
+9,male,group D,high school,free/reduced,completed,64,M_B,64,R_B,67,W_B,65.0,Pass,average
+10,female,group B,high school,free/reduced,none,38,M_C,60,R_B,50,W_B,49.33,Fail,below average
+11,male,group C,associate's degree,standard,none,58,M_B,54,R_B,52,W_B,54.67,Pass,below average
+12,male,group D,associate's degree,standard,none,40,M_C,52,R_B,43,W_C,45.0,Fail,below average
+13,female,group B,high school,standard,none,65,M_B,81,R_A,73,W_B,73.0,Pass,good
+14,male,group A,some college,standard,completed,78,M_B,72,R_B,70,W_B,73.33,Pass,good
+15,female,group A,master's degree,standard,none,50,M_B,53,R_B,58,W_B,53.67,Pass,below average
+16,female,group C,some high school,standard,none,69,M_B,75,R_B,78,W_B,74.0,Pass,good
+17,male,group C,high school,standard,none,88,M_A,89,R_A,86,W_A,87.67,Pass,excellent
+18,female,group B,some high school,free/reduced,none,18,M_C,32,R_C,28,W_C,26.0,Fail,weak
+19,male,group C,master's degree,free/reduced,completed,46,M_C,42,R_C,46,W_C,44.67,Fail,below average
+20,female,group C,associate's degree,free/reduced,none,54,M_B,58,R_B,61,W_B,57.67,Pass,average
+21,male,group D,high school,standard,none,66,M_B,69,R_B,63,W_B,66.0,Pass,average
+22,female,group B,some college,free/reduced,completed,65,M_B,75,R_B,70,W_B,70.0,Pass,average
+23,male,group D,some college,standard,none,44,M_C,54,R_B,53,W_B,50.33,Pass,below average
+24,female,group C,some high school,standard,none,69,M_B,73,R_B,73,W_B,71.67,Pass,good
+25,male,group D,bachelor's degree,free/reduced,completed,74,M_B,71,R_B,80,W_A,75.0,Pass,good
+26,male,group A,master's degree,free/reduced,none,73,M_B,74,R_B,72,W_B,73.0,Pass,good
+27,male,group B,some college,standard,none,69,M_B,54,R_B,55,W_B,59.33,Pass,average
+28,female,group C,bachelor's degree,standard,none,67,M_B,69,R_B,75,W_B,70.33,Pass,good
+29,male,group C,high school,standard,none,70,M_B,70,R_B,65,W_B,68.33,Pass,average
+30,female,group D,master's degree,standard,none,62,M_B,70,R_B,75,W_B,69.0,Pass,average
+31,female,group D,some college,standard,none,69,M_B,74,R_B,74,W_B,72.33,Pass,good
+32,female,group B,some college,standard,none,63,M_B,65,R_B,61,W_B,63.0,Pass,average
+33,female,group E,master's degree,free/reduced,none,56,M_B,72,R_B,65,W_B,64.33,Pass,average
+34,male,group D,some college,standard,none,40,M_C,42,R_C,38,W_C,40.0,Fail,weak
+35,male,group E,some college,standard,none,97,M_A,87,R_A,82,W_A,88.67,Pass,excellent
+36,male,group E,associate's degree,standard,completed,81,M_A,81,R_A,79,W_B,80.33,Pass,good
+37,female,group D,associate's degree,standard,none,74,M_B,81,R_A,83,W_A,79.33,Pass,good
+38,female,group D,some high school,free/reduced,none,50,M_B,64,R_B,59,W_B,57.67,Pass,average
+39,female,group D,associate's degree,free/reduced,completed,75,M_B,90,R_A,88,W_A,84.33,Pass,good
+40,male,group B,associate's degree,free/reduced,none,57,M_B,56,R_B,57,W_B,56.67,Pass,average
+41,male,group C,associate's degree,free/reduced,none,55,M_B,61,R_B,54,W_B,56.67,Pass,average
+42,female,group C,associate's degree,standard,none,58,M_B,73,R_B,68,W_B,66.33,Pass,average
+43,female,group B,associate's degree,standard,none,53,M_B,58,R_B,65,W_B,58.67,Pass,average
+44,male,group B,some college,free/reduced,completed,59,M_B,65,R_B,66,W_B,63.33,Pass,average
+45,female,group E,associate's degree,free/reduced,none,50,M_B,56,R_B,54,W_B,53.33,Pass,below average
+46,male,group B,associate's degree,standard,none,65,M_B,54,R_B,57,W_B,58.67,Pass,average
+47,female,group A,associate's degree,standard,completed,55,M_B,65,R_B,62,W_B,60.67,Pass,average
+48,female,group C,high school,standard,none,66,M_B,71,R_B,76,W_B,71.0,Pass,good
+49,female,group D,associate's degree,free/reduced,completed,57,M_B,74,R_B,76,W_B,69.0,Pass,average
+50,male,group C,high school,standard,completed,82,M_A,84,R_A,82,W_A,82.67,Pass,good
+51,male,group E,some college,standard,none,53,M_B,55,R_B,48,W_C,52.0,Pass,below average
+52,male,group E,associate's degree,free/reduced,completed,77,M_B,69,R_B,68,W_B,71.33,Pass,good
+53,male,group C,some college,standard,none,53,M_B,44,R_C,42,W_C,46.33,Fail,below average
+54,male,group D,high school,standard,none,88,M_A,78,R_B,75,W_B,80.33,Pass,good
+55,female,group C,some high school,free/reduced,completed,71,M_B,84,R_A,87,W_A,80.67,Pass,good
+56,female,group C,high school,free/reduced,none,33,M_C,41,R_C,43,W_C,39.0,Fail,weak
+57,female,group E,associate's degree,standard,completed,82,M_A,85,R_A,86,W_A,84.33,Pass,good
+58,male,group D,associate's degree,standard,none,52,M_B,55,R_B,49,W_C,52.0,Pass,below average
+59,male,group D,some college,standard,completed,58,M_B,59,R_B,58,W_B,58.33,Pass,average
+60,female,group C,some high school,free/reduced,none,0,M_C,17,R_C,10,W_C,9.0,Fail,weak
+61,male,group E,bachelor's degree,free/reduced,completed,79,M_B,74,R_B,72,W_B,75.0,Pass,good
+62,male,group A,some high school,free/reduced,none,39,M_C,39,R_C,34,W_C,37.33,Fail,weak
+63,male,group A,associate's degree,free/reduced,none,62,M_B,61,R_B,55,W_B,59.33,Pass,average
+64,female,group C,associate's degree,standard,none,69,M_B,80,R_A,71,W_B,73.33,Pass,good
+65,female,group D,some high school,standard,none,59,M_B,58,R_B,59,W_B,58.67,Pass,average
+66,male,group B,some high school,standard,none,67,M_B,64,R_B,61,W_B,64.0,Pass,average
+67,male,group D,some high school,free/reduced,none,45,M_C,37,R_C,37,W_C,39.67,Fail,weak
+68,female,group C,some college,standard,none,60,M_B,72,R_B,74,W_B,68.67,Pass,average
+69,male,group B,associate's degree,free/reduced,none,61,M_B,58,R_B,56,W_B,58.33,Pass,average
+70,female,group C,associate's degree,standard,none,39,M_C,64,R_B,57,W_B,53.33,Pass,below average
+71,female,group D,some college,free/reduced,completed,58,M_B,63,R_B,73,W_B,64.67,Pass,average
+72,male,group D,some college,standard,completed,63,M_B,55,R_B,63,W_B,60.33,Pass,average
+73,female,group A,associate's degree,free/reduced,none,41,M_C,51,R_B,48,W_C,46.67,Fail,below average
+74,male,group C,some high school,free/reduced,none,61,M_B,57,R_B,56,W_B,58.0,Pass,average
+75,male,group C,some high school,standard,none,49,M_C,49,R_C,41,W_C,46.33,Fail,below average
+76,male,group B,associate's degree,free/reduced,none,44,M_C,41,R_C,38,W_C,41.0,Fail,below average
+77,male,group E,some high school,standard,none,30,M_C,26,R_C,22,W_C,26.0,Fail,weak
+78,male,group A,bachelor's degree,standard,completed,80,M_A,78,R_B,81,W_A,79.67,Pass,good
+79,female,group D,some high school,standard,completed,61,M_B,74,R_B,72,W_B,69.0,Pass,average
+80,female,group E,master's degree,standard,none,62,M_B,68,R_B,68,W_B,66.0,Pass,average
+81,female,group B,associate's degree,standard,none,47,M_C,49,R_C,50,W_B,48.67,Fail,below average
+82,male,group B,high school,free/reduced,none,49,M_C,45,R_C,45,W_C,46.33,Fail,below average
+83,male,group A,some college,free/reduced,completed,50,M_B,47,R_C,54,W_B,50.33,Pass,below average
+84,male,group E,associate's degree,standard,none,72,M_B,64,R_B,63,W_B,66.33,Pass,average
+85,male,group D,high school,free/reduced,none,42,M_C,39,R_C,34,W_C,38.33,Fail,weak
+86,female,group C,some college,standard,none,73,M_B,80,R_A,82,W_A,78.33,Pass,good
+87,female,group C,some college,free/reduced,none,76,M_B,83,R_A,88,W_A,82.33,Pass,good
+88,female,group D,associate's degree,standard,none,71,M_B,71,R_B,74,W_B,72.0,Pass,good
+89,female,group A,some college,standard,none,58,M_B,70,R_B,67,W_B,65.0,Pass,average
+90,female,group D,some high school,standard,none,73,M_B,86,R_A,82,W_A,80.33,Pass,good
+91,female,group C,bachelor's degree,standard,none,65,M_B,72,R_B,74,W_B,70.33,Pass,good
+92,male,group C,high school,free/reduced,none,27,M_C,34,R_C,36,W_C,32.33,Fail,weak
+93,male,group C,high school,standard,none,71,M_B,79,R_B,71,W_B,73.67,Pass,good
+94,male,group C,associate's degree,free/reduced,completed,43,M_C,45,R_C,50,W_B,46.0,Fail,below average
+95,female,group B,some college,standard,none,79,M_B,86,R_A,92,W_A,85.67,Pass,excellent
+96,male,group C,associate's degree,free/reduced,completed,78,M_B,81,R_A,82,W_A,80.33,Pass,good
+97,male,group B,some high school,standard,completed,65,M_B,66,R_B,62,W_B,64.33,Pass,average
+98,female,group E,some college,standard,completed,63,M_B,72,R_B,70,W_B,68.33,Pass,average
+99,female,group D,some college,free/reduced,none,58,M_B,67,R_B,62,W_B,62.33,Pass,average
+100,female,group D,bachelor's degree,standard,none,65,M_B,67,R_B,62,W_B,64.67,Pass,average
+101,male,group B,some college,standard,none,79,M_B,67,R_B,67,W_B,71.0,Pass,good
+102,male,group D,bachelor's degree,standard,completed,68,M_B,74,R_B,74,W_B,72.0,Pass,good
+103,female,group D,associate's degree,standard,none,85,M_A,91,R_A,89,W_A,88.33,Pass,excellent
+104,male,group B,high school,standard,completed,60,M_B,44,R_C,47,W_C,50.33,Pass,below average
+105,male,group C,some college,standard,completed,98,M_A,86,R_A,90,W_A,91.33,Pass,excellent
+106,female,group C,some college,standard,none,58,M_B,67,R_B,72,W_B,65.67,Pass,average
+107,female,group D,master's degree,standard,none,87,M_A,100,R_A,100,W_A,95.67,Pass,excellent
+108,male,group E,associate's degree,standard,completed,66,M_B,63,R_B,64,W_B,64.33,Pass,average
+109,female,group B,associate's degree,free/reduced,none,52,M_B,76,R_B,70,W_B,66.0,Pass,average
+110,female,group B,some high school,standard,none,70,M_B,64,R_B,72,W_B,68.67,Pass,average
+111,female,group D,associate's degree,free/reduced,completed,77,M_B,89,R_A,98,W_A,88.0,Pass,excellent
+112,male,group C,high school,standard,none,62,M_B,55,R_B,49,W_C,55.33,Pass,average
+113,male,group A,associate's degree,standard,none,54,M_B,53,R_B,47,W_C,51.33,Pass,below average
+114,female,group D,some college,standard,none,51,M_B,58,R_B,54,W_B,54.33,Pass,below average
+115,female,group E,bachelor's degree,standard,completed,99,M_A,100,R_A,100,W_A,99.67,Pass,excellent
+116,male,group C,high school,standard,none,84,M_A,77,R_B,74,W_B,78.33,Pass,good
+117,female,group B,bachelor's degree,free/reduced,none,75,M_B,85,R_A,82,W_A,80.67,Pass,good
+118,female,group D,bachelor's degree,standard,none,78,M_B,82,R_A,79,W_B,79.67,Pass,good
+119,female,group D,some high school,standard,none,51,M_B,63,R_B,61,W_B,58.33,Pass,average
+120,female,group C,some college,standard,none,55,M_B,69,R_B,65,W_B,63.0,Pass,average
+121,female,group C,bachelor's degree,standard,completed,79,M_B,92,R_A,89,W_A,86.67,Pass,excellent
+122,male,group B,associate's degree,standard,completed,91,M_A,89,R_A,92,W_A,90.67,Pass,excellent
+123,female,group C,some college,standard,completed,88,M_A,93,R_A,93,W_A,91.33,Pass,excellent
+124,male,group D,high school,free/reduced,none,63,M_B,57,R_B,56,W_B,58.67,Pass,average
+125,male,group E,some college,standard,none,83,M_A,80,R_A,73,W_B,78.67,Pass,good
+126,female,group B,high school,standard,none,87,M_A,95,R_A,86,W_A,89.33,Pass,excellent
+127,male,group B,some high school,standard,none,72,M_B,68,R_B,67,W_B,69.0,Pass,average
+128,male,group D,some college,standard,completed,65,M_B,77,R_B,74,W_B,72.0,Pass,good
+129,male,group D,master's degree,standard,none,82,M_A,82,R_A,74,W_B,79.33,Pass,good
+130,female,group A,bachelor's degree,standard,none,51,M_B,49,R_C,51,W_B,50.33,Pass,below average
+131,male,group D,master's degree,standard,none,89,M_A,84,R_A,82,W_A,85.0,Pass,good
+132,male,group C,some high school,free/reduced,completed,53,M_B,37,R_C,40,W_C,43.33,Fail,below average
+133,male,group E,some college,free/reduced,completed,87,M_A,74,R_B,70,W_B,77.0,Pass,good
+134,female,group C,some college,standard,completed,75,M_B,81,R_A,84,W_A,80.0,Pass,good
+135,male,group D,bachelor's degree,free/reduced,completed,74,M_B,79,R_B,75,W_B,76.0,Pass,good
+136,male,group C,bachelor's degree,standard,none,58,M_B,55,R_B,48,W_C,53.67,Pass,below average
+137,male,group B,some high school,standard,completed,51,M_B,54,R_B,41,W_C,48.67,Fail,below average
+138,male,group E,high school,standard,none,70,M_B,55,R_B,56,W_B,60.33,Pass,average
+139,female,group C,associate's degree,standard,none,59,M_B,66,R_B,67,W_B,64.0,Pass,average
+140,male,group D,some college,standard,completed,71,M_B,61,R_B,69,W_B,67.0,Pass,average
+141,female,group D,some high school,standard,none,76,M_B,72,R_B,71,W_B,73.0,Pass,good
+142,female,group C,some college,free/reduced,none,59,M_B,62,R_B,64,W_B,61.67,Pass,average
+143,female,group E,some college,free/reduced,completed,42,M_C,55,R_B,54,W_B,50.33,Pass,below average
+144,male,group A,high school,standard,none,57,M_B,43,R_C,47,W_C,49.0,Fail,below average
+145,male,group D,some college,standard,none,88,M_A,73,R_B,78,W_B,79.67,Pass,good
+146,female,group C,some college,free/reduced,none,22,M_C,39,R_C,33,W_C,31.33,Fail,weak
+147,male,group B,some high school,standard,none,88,M_A,84,R_A,75,W_B,82.33,Pass,good
+148,male,group C,associate's degree,free/reduced,none,73,M_B,68,R_B,66,W_B,69.0,Pass,average
+149,female,group D,bachelor's degree,standard,completed,68,M_B,75,R_B,81,W_A,74.67,Pass,good
+150,male,group E,associate's degree,free/reduced,completed,100,M_A,100,R_A,93,W_A,97.67,Pass,excellent
+151,male,group A,some high school,standard,completed,62,M_B,67,R_B,69,W_B,66.0,Pass,average
+152,male,group A,bachelor's degree,standard,none,77,M_B,67,R_B,68,W_B,70.67,Pass,good
+153,female,group B,associate's degree,standard,completed,59,M_B,70,R_B,66,W_B,65.0,Pass,average
+154,male,group D,bachelor's degree,standard,none,54,M_B,49,R_C,47,W_C,50.0,Pass,below average
+155,male,group D,some high school,standard,none,62,M_B,67,R_B,61,W_B,63.33,Pass,average
+156,female,group C,some college,standard,completed,70,M_B,89,R_A,88,W_A,82.33,Pass,good
+157,female,group E,high school,free/reduced,completed,66,M_B,74,R_B,78,W_B,72.67,Pass,good
+158,male,group B,some college,free/reduced,none,60,M_B,60,R_B,60,W_B,60.0,Pass,average
+159,female,group B,associate's degree,standard,completed,61,M_B,86,R_A,87,W_A,78.0,Pass,good
+160,male,group D,associate's degree,free/reduced,none,66,M_B,62,R_B,64,W_B,64.0,Pass,average
+161,male,group B,associate's degree,free/reduced,completed,82,M_A,78,R_B,74,W_B,78.0,Pass,good
+162,female,group E,some college,free/reduced,completed,75,M_B,88,R_A,85,W_A,82.67,Pass,good
+163,male,group B,master's degree,free/reduced,none,49,M_C,53,R_B,52,W_B,51.33,Pass,below average
+164,male,group C,high school,standard,none,52,M_B,53,R_B,49,W_C,51.33,Pass,below average
+165,female,group E,master's degree,standard,none,81,M_A,92,R_A,91,W_A,88.0,Pass,excellent
+166,female,group C,bachelor's degree,standard,completed,96,M_A,100,R_A,100,W_A,98.67,Pass,excellent
+167,male,group C,high school,free/reduced,completed,53,M_B,51,R_B,51,W_B,51.67,Pass,below average
+168,female,group B,master's degree,free/reduced,completed,58,M_B,76,R_B,78,W_B,70.67,Pass,good
+169,female,group B,high school,standard,completed,68,M_B,83,R_A,78,W_B,76.33,Pass,good
+170,female,group C,some college,free/reduced,completed,67,M_B,75,R_B,70,W_B,70.67,Pass,good
+171,male,group A,high school,standard,completed,72,M_B,73,R_B,74,W_B,73.0,Pass,good
+172,male,group E,some high school,standard,none,94,M_A,88,R_A,78,W_B,86.67,Pass,excellent
+173,female,group D,some college,standard,none,79,M_B,86,R_A,81,W_A,82.0,Pass,good
+174,female,group C,associate's degree,standard,none,63,M_B,67,R_B,70,W_B,66.67,Pass,average
+175,female,group C,bachelor's degree,free/reduced,completed,43,M_C,51,R_B,54,W_B,49.33,Fail,below average
+176,female,group C,master's degree,standard,completed,81,M_A,91,R_A,87,W_A,86.33,Pass,excellent
+177,female,group B,high school,free/reduced,completed,46,M_C,54,R_B,58,W_B,52.67,Pass,below average
+178,female,group C,associate's degree,standard,completed,71,M_B,77,R_B,77,W_B,75.0,Pass,good
+179,female,group B,master's degree,free/reduced,completed,52,M_B,70,R_B,62,W_B,61.33,Pass,average
+180,female,group D,some high school,standard,completed,97,M_A,100,R_A,100,W_A,99.0,Pass,excellent
+181,male,group C,master's degree,free/reduced,completed,62,M_B,68,R_B,75,W_B,68.33,Pass,average
+182,female,group C,some college,free/reduced,none,46,M_C,64,R_B,66,W_B,58.67,Pass,average
+183,female,group E,high school,standard,none,50,M_B,50,R_B,47,W_C,49.0,Fail,below average
+184,female,group D,associate's degree,standard,none,65,M_B,69,R_B,70,W_B,68.0,Pass,average
+185,male,group C,some high school,free/reduced,completed,45,M_C,52,R_B,49,W_C,48.67,Fail,below average
+186,male,group C,associate's degree,free/reduced,completed,65,M_B,67,R_B,65,W_B,65.67,Pass,average
+187,male,group E,high school,standard,none,80,M_A,76,R_B,65,W_B,73.67,Pass,good
+188,male,group D,some high school,standard,completed,62,M_B,66,R_B,68,W_B,65.33,Pass,average
+189,male,group B,some high school,free/reduced,none,48,M_C,52,R_B,45,W_C,48.33,Fail,below average
+190,female,group C,bachelor's degree,standard,none,77,M_B,88,R_A,87,W_A,84.0,Pass,good
+191,female,group E,associate's degree,standard,none,66,M_B,65,R_B,69,W_B,66.67,Pass,average
+192,male,group D,some college,standard,completed,76,M_B,83,R_A,79,W_B,79.33,Pass,good
+193,female,group B,some high school,standard,none,62,M_B,64,R_B,66,W_B,64.0,Pass,average
+194,male,group D,some college,standard,completed,77,M_B,62,R_B,62,W_B,67.0,Pass,average
+195,female,group C,master's degree,standard,completed,69,M_B,84,R_A,85,W_A,79.33,Pass,good
+196,male,group D,associate's degree,standard,none,61,M_B,55,R_B,52,W_B,56.0,Pass,average
+197,male,group C,some high school,free/reduced,completed,59,M_B,69,R_B,65,W_B,64.33,Pass,average
+198,male,group E,high school,free/reduced,none,55,M_B,56,R_B,51,W_B,54.0,Pass,below average
+199,female,group B,some college,free/reduced,none,45,M_C,53,R_B,55,W_B,51.0,Pass,below average
+200,female,group B,bachelor's degree,free/reduced,none,78,M_B,79,R_B,76,W_B,77.67,Pass,good
+201,female,group C,associate's degree,standard,completed,67,M_B,84,R_A,86,W_A,79.0,Pass,good
+202,female,group D,some college,free/reduced,none,65,M_B,81,R_A,77,W_B,74.33,Pass,good
+203,male,group C,associate's degree,standard,none,69,M_B,77,R_B,69,W_B,71.67,Pass,good
+204,female,group B,associate's degree,standard,none,57,M_B,69,R_B,68,W_B,64.67,Pass,average
+205,male,group C,some college,standard,none,59,M_B,41,R_C,42,W_C,47.33,Fail,below average
+206,male,group D,some high school,standard,completed,74,M_B,71,R_B,78,W_B,74.33,Pass,good
+207,male,group E,bachelor's degree,standard,none,82,M_A,62,R_B,62,W_B,68.67,Pass,average
+208,male,group E,high school,standard,completed,81,M_A,80,R_A,76,W_B,79.0,Pass,good
+209,female,group B,some college,free/reduced,none,74,M_B,81,R_A,76,W_B,77.0,Pass,good
+210,female,group B,some college,free/reduced,none,58,M_B,61,R_B,66,W_B,61.67,Pass,average
+211,male,group D,some high school,free/reduced,completed,80,M_A,79,R_B,79,W_B,79.33,Pass,good
+212,male,group C,some college,free/reduced,none,35,M_C,28,R_C,27,W_C,30.0,Fail,weak
+213,female,group C,high school,free/reduced,none,42,M_C,62,R_B,60,W_B,54.67,Pass,below average
+214,male,group C,associate's degree,free/reduced,completed,60,M_B,51,R_B,56,W_B,55.67,Pass,average
+215,male,group E,high school,standard,completed,87,M_A,91,R_A,81,W_A,86.33,Pass,excellent
+216,male,group B,some high school,standard,completed,84,M_A,83,R_A,75,W_B,80.67,Pass,good
+217,female,group E,associate's degree,free/reduced,completed,83,M_A,86,R_A,88,W_A,85.67,Pass,excellent
+218,female,group C,high school,free/reduced,none,34,M_C,42,R_C,39,W_C,38.33,Fail,weak
+219,male,group B,high school,free/reduced,none,66,M_B,77,R_B,70,W_B,71.0,Pass,good
+220,male,group B,some high school,standard,completed,61,M_B,56,R_B,56,W_B,57.67,Pass,average
+221,female,group D,high school,standard,completed,56,M_B,68,R_B,74,W_B,66.0,Pass,average
+222,male,group B,associate's degree,standard,none,87,M_A,85,R_A,73,W_B,81.67,Pass,good
+223,female,group C,some high school,free/reduced,none,55,M_B,65,R_B,62,W_B,60.67,Pass,average
+224,male,group D,some high school,standard,none,86,M_A,80,R_A,75,W_B,80.33,Pass,good
+225,female,group B,associate's degree,standard,completed,52,M_B,66,R_B,73,W_B,63.67,Pass,average
+226,female,group E,master's degree,free/reduced,none,45,M_C,56,R_B,54,W_B,51.67,Pass,below average
+227,female,group C,some college,standard,none,72,M_B,72,R_B,71,W_B,71.67,Pass,good
+228,male,group D,high school,standard,none,57,M_B,50,R_B,54,W_B,53.67,Pass,below average
+229,male,group A,some high school,free/reduced,none,68,M_B,72,R_B,64,W_B,68.0,Pass,average
+230,female,group C,some college,standard,completed,88,M_A,95,R_A,94,W_A,92.33,Pass,excellent
+231,male,group D,some college,standard,none,76,M_B,64,R_B,66,W_B,68.67,Pass,average
+232,male,group C,associate's degree,standard,none,46,M_C,43,R_C,42,W_C,43.67,Fail,below average
+233,female,group B,bachelor's degree,standard,none,67,M_B,86,R_A,83,W_A,78.67,Pass,good
+234,male,group E,some high school,standard,none,92,M_A,87,R_A,78,W_B,85.67,Pass,excellent
+235,male,group C,bachelor's degree,standard,completed,83,M_A,82,R_A,84,W_A,83.0,Pass,good
+236,male,group D,associate's degree,standard,none,80,M_A,75,R_B,77,W_B,77.33,Pass,good
+237,male,group D,bachelor's degree,free/reduced,none,63,M_B,66,R_B,67,W_B,65.33,Pass,average
+238,female,group D,some high school,standard,completed,64,M_B,60,R_B,74,W_B,66.0,Pass,average
+239,male,group B,some college,standard,none,54,M_B,52,R_B,51,W_B,52.33,Pass,below average
+240,male,group C,associate's degree,standard,none,84,M_A,80,R_A,80,W_A,81.33,Pass,good
+241,male,group D,high school,free/reduced,completed,73,M_B,68,R_B,66,W_B,69.0,Pass,average
+242,female,group E,bachelor's degree,standard,none,80,M_A,83,R_A,83,W_A,82.0,Pass,good
+243,female,group D,high school,standard,none,56,M_B,52,R_B,55,W_B,54.33,Pass,below average
+244,male,group E,some college,standard,none,59,M_B,51,R_B,43,W_C,51.0,Pass,below average
+245,male,group D,some high school,standard,none,75,M_B,74,R_B,69,W_B,72.67,Pass,good
+246,male,group C,associate's degree,standard,none,85,M_A,76,R_B,71,W_B,77.33,Pass,good
+247,male,group E,associate's degree,standard,none,89,M_A,76,R_B,74,W_B,79.67,Pass,good
+248,female,group B,high school,standard,completed,58,M_B,70,R_B,68,W_B,65.33,Pass,average
+249,female,group B,high school,standard,none,65,M_B,64,R_B,62,W_B,63.67,Pass,average
+250,male,group C,high school,standard,none,68,M_B,60,R_B,53,W_B,60.33,Pass,average
+251,male,group A,some high school,standard,completed,47,M_C,49,R_C,49,W_C,48.33,Fail,below average
+252,female,group D,some college,free/reduced,none,71,M_B,83,R_A,83,W_A,79.0,Pass,good
+253,female,group B,some high school,standard,completed,60,M_B,70,R_B,70,W_B,66.67,Pass,average
+254,male,group D,master's degree,standard,none,80,M_A,80,R_A,72,W_B,77.33,Pass,good
+255,male,group D,high school,standard,none,54,M_B,52,R_B,52,W_B,52.67,Pass,below average
+256,female,group E,some college,standard,none,62,M_B,73,R_B,70,W_B,68.33,Pass,average
+257,female,group C,associate's degree,free/reduced,none,64,M_B,73,R_B,68,W_B,68.33,Pass,average
+258,male,group C,associate's degree,standard,completed,78,M_B,77,R_B,77,W_B,77.33,Pass,good
+259,female,group B,some college,standard,none,70,M_B,75,R_B,78,W_B,74.33,Pass,good
+260,female,group C,master's degree,free/reduced,completed,65,M_B,81,R_A,81,W_A,75.67,Pass,good
+261,female,group C,some high school,free/reduced,completed,64,M_B,79,R_B,77,W_B,73.33,Pass,good
+262,male,group C,some college,standard,completed,79,M_B,79,R_B,78,W_B,78.67,Pass,good
+263,female,group C,some high school,free/reduced,none,44,M_C,50,R_B,51,W_B,48.33,Fail,below average
+264,female,group E,high school,standard,none,99,M_A,93,R_A,90,W_A,94.0,Pass,excellent
+265,male,group D,high school,standard,none,76,M_B,73,R_B,68,W_B,72.33,Pass,good
+266,male,group D,some high school,free/reduced,none,59,M_B,42,R_C,41,W_C,47.33,Fail,below average
+267,female,group C,bachelor's degree,standard,none,63,M_B,75,R_B,81,W_A,73.0,Pass,good
+268,female,group D,high school,standard,none,69,M_B,72,R_B,77,W_B,72.67,Pass,good
+269,female,group D,associate's degree,standard,completed,88,M_A,92,R_A,95,W_A,91.67,Pass,excellent
+270,female,group E,some college,free/reduced,none,71,M_B,76,R_B,70,W_B,72.33,Pass,good
+271,male,group C,bachelor's degree,standard,none,69,M_B,63,R_B,61,W_B,64.33,Pass,average
+272,male,group C,some college,standard,none,58,M_B,49,R_C,42,W_C,49.67,Fail,below average
+273,female,group D,associate's degree,free/reduced,none,47,M_C,53,R_B,58,W_B,52.67,Pass,below average
+274,female,group D,some college,standard,none,65,M_B,70,R_B,71,W_B,68.67,Pass,average
+275,male,group B,some college,standard,completed,88,M_A,85,R_A,76,W_B,83.0,Pass,good
+276,male,group C,bachelor's degree,standard,none,83,M_A,78,R_B,73,W_B,78.0,Pass,good
+277,female,group C,some high school,standard,completed,85,M_A,92,R_A,93,W_A,90.0,Pass,excellent
+278,female,group E,high school,standard,completed,59,M_B,63,R_B,75,W_B,65.67,Pass,average
+279,female,group C,some high school,free/reduced,none,65,M_B,86,R_A,80,W_A,77.0,Pass,good
+280,male,group B,bachelor's degree,free/reduced,none,73,M_B,56,R_B,57,W_B,62.0,Pass,average
+281,male,group D,high school,standard,none,53,M_B,52,R_B,42,W_C,49.0,Fail,below average
+282,male,group D,high school,standard,none,45,M_C,48,R_C,46,W_C,46.33,Fail,below average
+283,female,group D,bachelor's degree,free/reduced,none,73,M_B,79,R_B,84,W_A,78.67,Pass,good
+284,female,group D,some college,free/reduced,completed,70,M_B,78,R_B,78,W_B,75.33,Pass,good
+285,female,group B,some high school,standard,none,37,M_C,46,R_C,46,W_C,43.0,Fail,below average
+286,male,group B,associate's degree,standard,completed,81,M_A,82,R_A,82,W_A,81.67,Pass,good
+287,male,group E,associate's degree,standard,completed,97,M_A,82,R_A,88,W_A,89.0,Pass,excellent
+288,female,group B,some high school,standard,none,67,M_B,89,R_A,82,W_A,79.33,Pass,good
+289,male,group B,bachelor's degree,free/reduced,none,88,M_A,75,R_B,76,W_B,79.67,Pass,good
+290,male,group E,some high school,standard,completed,77,M_B,76,R_B,77,W_B,76.67,Pass,good
+291,male,group C,associate's degree,standard,none,76,M_B,70,R_B,68,W_B,71.33,Pass,good
+292,male,group D,some high school,standard,none,86,M_A,73,R_B,70,W_B,76.33,Pass,good
+293,male,group C,some high school,standard,completed,63,M_B,60,R_B,57,W_B,60.0,Pass,average
+294,female,group E,bachelor's degree,standard,none,65,M_B,73,R_B,75,W_B,71.0,Pass,good
+295,male,group D,high school,free/reduced,completed,78,M_B,77,R_B,80,W_A,78.33,Pass,good
+296,male,group B,associate's degree,free/reduced,none,67,M_B,62,R_B,60,W_B,63.0,Pass,average
+297,male,group A,some high school,standard,completed,46,M_C,41,R_C,43,W_C,43.33,Fail,below average
+298,male,group E,associate's degree,standard,completed,71,M_B,74,R_B,68,W_B,71.0,Pass,good
+299,male,group C,high school,free/reduced,completed,40,M_C,46,R_C,50,W_B,45.33,Fail,below average
+300,male,group D,associate's degree,free/reduced,none,90,M_A,87,R_A,75,W_B,84.0,Pass,good
+301,male,group A,some college,free/reduced,completed,81,M_A,78,R_B,81,W_A,80.0,Pass,good
+302,male,group D,some high school,free/reduced,none,56,M_B,54,R_B,52,W_B,54.0,Pass,below average
+303,female,group C,associate's degree,standard,completed,67,M_B,84,R_A,81,W_A,77.33,Pass,good
+304,male,group B,associate's degree,standard,none,80,M_A,76,R_B,64,W_B,73.33,Pass,good
+305,female,group C,associate's degree,standard,completed,74,M_B,75,R_B,83,W_A,77.33,Pass,good
+306,male,group A,some college,standard,none,69,M_B,67,R_B,69,W_B,68.33,Pass,average
+307,male,group E,some college,standard,completed,99,M_A,87,R_A,81,W_A,89.0,Pass,excellent
+308,male,group C,some high school,standard,none,51,M_B,52,R_B,44,W_C,49.0,Fail,below average
+309,female,group B,associate's degree,free/reduced,none,53,M_B,71,R_B,67,W_B,63.67,Pass,average
+310,female,group D,high school,free/reduced,none,49,M_C,57,R_B,52,W_B,52.67,Pass,below average
+311,female,group B,associate's degree,standard,none,73,M_B,76,R_B,80,W_A,76.33,Pass,good
+312,male,group B,bachelor's degree,standard,none,66,M_B,60,R_B,57,W_B,61.0,Pass,average
+313,male,group D,bachelor's degree,standard,completed,67,M_B,61,R_B,68,W_B,65.33,Pass,average
+314,female,group C,associate's degree,free/reduced,completed,68,M_B,67,R_B,69,W_B,68.0,Pass,average
+315,female,group C,bachelor's degree,standard,completed,59,M_B,64,R_B,75,W_B,66.0,Pass,average
+316,male,group C,high school,standard,none,71,M_B,66,R_B,65,W_B,67.33,Pass,average
+317,female,group D,master's degree,standard,completed,77,M_B,82,R_A,91,W_A,83.33,Pass,good
+318,male,group C,associate's degree,standard,none,83,M_A,72,R_B,78,W_B,77.67,Pass,good
+319,male,group B,bachelor's degree,standard,none,63,M_B,71,R_B,69,W_B,67.67,Pass,average
+320,female,group D,associate's degree,free/reduced,none,56,M_B,65,R_B,63,W_B,61.33,Pass,average
+321,female,group C,high school,free/reduced,completed,67,M_B,79,R_B,84,W_A,76.67,Pass,good
+322,female,group E,high school,standard,none,75,M_B,86,R_A,79,W_B,80.0,Pass,good
+323,female,group C,some college,standard,none,71,M_B,81,R_A,80,W_A,77.33,Pass,good
+324,female,group C,some high school,free/reduced,none,43,M_C,53,R_B,53,W_B,49.67,Fail,below average
+325,female,group C,high school,free/reduced,none,41,M_C,46,R_C,43,W_C,43.33,Fail,below average
+326,female,group C,some college,standard,none,82,M_A,90,R_A,94,W_A,88.67,Pass,excellent
+327,male,group C,some college,standard,none,61,M_B,61,R_B,62,W_B,61.33,Pass,average
+328,male,group A,some college,free/reduced,none,28,M_C,23,R_C,19,W_C,23.33,Fail,weak
+329,male,group C,associate's degree,standard,completed,82,M_A,75,R_B,77,W_B,78.0,Pass,good
+330,female,group B,some high school,standard,none,41,M_C,55,R_B,51,W_B,49.0,Fail,below average
+331,male,group C,high school,standard,none,71,M_B,60,R_B,61,W_B,64.0,Pass,average
+332,male,group C,associate's degree,standard,none,47,M_C,37,R_C,35,W_C,39.67,Fail,weak
+333,male,group E,associate's degree,standard,completed,62,M_B,56,R_B,53,W_B,57.0,Pass,average
+334,male,group B,associate's degree,standard,none,90,M_A,78,R_B,81,W_A,83.0,Pass,good
+335,female,group C,bachelor's degree,standard,none,83,M_A,93,R_A,95,W_A,90.33,Pass,excellent
+336,female,group B,some college,free/reduced,none,61,M_B,68,R_B,66,W_B,65.0,Pass,average
+337,male,group D,some high school,standard,completed,76,M_B,70,R_B,69,W_B,71.67,Pass,good
+338,male,group C,associate's degree,standard,none,49,M_C,51,R_B,43,W_C,47.67,Fail,below average
+339,female,group B,some high school,free/reduced,none,24,M_C,38,R_C,27,W_C,29.67,Fail,weak
+340,female,group D,some high school,free/reduced,completed,35,M_C,55,R_B,60,W_B,50.0,Pass,below average
+341,male,group C,high school,free/reduced,none,58,M_B,61,R_B,52,W_B,57.0,Pass,average
+342,female,group C,high school,standard,none,61,M_B,73,R_B,63,W_B,65.67,Pass,average
+343,female,group B,high school,standard,completed,69,M_B,76,R_B,74,W_B,73.0,Pass,good
+344,male,group D,associate's degree,standard,completed,67,M_B,72,R_B,67,W_B,68.67,Pass,average
+345,male,group D,some college,standard,none,79,M_B,73,R_B,67,W_B,73.0,Pass,good
+346,female,group C,high school,standard,none,72,M_B,80,R_A,75,W_B,75.67,Pass,good
+347,male,group B,some college,standard,none,62,M_B,61,R_B,57,W_B,60.0,Pass,average
+348,female,group C,bachelor's degree,standard,completed,77,M_B,94,R_A,95,W_A,88.67,Pass,excellent
+349,male,group D,high school,free/reduced,none,75,M_B,74,R_B,66,W_B,71.67,Pass,good
+350,male,group E,associate's degree,standard,none,87,M_A,74,R_B,76,W_B,79.0,Pass,good
+351,female,group B,bachelor's degree,standard,none,52,M_B,65,R_B,69,W_B,62.0,Pass,average
+352,male,group E,some college,standard,none,66,M_B,57,R_B,52,W_B,58.33,Pass,average
+353,female,group C,some college,standard,completed,63,M_B,78,R_B,80,W_A,73.67,Pass,good
+354,female,group C,associate's degree,standard,none,46,M_C,58,R_B,57,W_B,53.67,Pass,below average
+355,female,group C,some college,standard,none,59,M_B,71,R_B,70,W_B,66.67,Pass,average
+356,female,group B,bachelor's degree,standard,none,61,M_B,72,R_B,70,W_B,67.67,Pass,average
+357,male,group A,associate's degree,standard,none,63,M_B,61,R_B,61,W_B,61.67,Pass,average
+358,female,group C,some college,free/reduced,completed,42,M_C,66,R_B,69,W_B,59.0,Pass,average
+359,male,group D,some college,free/reduced,none,59,M_B,62,R_B,61,W_B,60.67,Pass,average
+360,female,group D,some college,standard,none,80,M_A,90,R_A,89,W_A,86.33,Pass,excellent
+361,female,group B,high school,standard,none,58,M_B,62,R_B,59,W_B,59.67,Pass,average
+362,male,group B,some high school,standard,completed,85,M_A,84,R_A,78,W_B,82.33,Pass,good
+363,female,group C,some college,standard,none,52,M_B,58,R_B,58,W_B,56.0,Pass,average
+364,female,group D,some high school,free/reduced,none,27,M_C,34,R_C,32,W_C,31.0,Fail,weak
+365,male,group C,some college,standard,none,59,M_B,60,R_B,58,W_B,59.0,Pass,average
+366,male,group A,bachelor's degree,free/reduced,completed,49,M_C,58,R_B,60,W_B,55.67,Pass,average
+367,male,group C,high school,standard,completed,69,M_B,58,R_B,53,W_B,60.0,Pass,average
+368,male,group C,bachelor's degree,free/reduced,none,61,M_B,66,R_B,61,W_B,62.67,Pass,average
+369,female,group A,some high school,free/reduced,none,44,M_C,64,R_B,58,W_B,55.33,Pass,average
+370,female,group D,some high school,standard,none,73,M_B,84,R_A,85,W_A,80.67,Pass,good
+371,male,group E,some college,standard,none,84,M_A,77,R_B,71,W_B,77.33,Pass,good
+372,female,group C,some college,free/reduced,completed,45,M_C,73,R_B,70,W_B,62.67,Pass,average
+373,male,group D,some high school,standard,none,74,M_B,74,R_B,72,W_B,73.33,Pass,good
+374,female,group D,some college,standard,completed,82,M_A,97,R_A,96,W_A,91.67,Pass,excellent
+375,female,group D,bachelor's degree,standard,none,59,M_B,70,R_B,73,W_B,67.33,Pass,average
+376,male,group E,associate's degree,free/reduced,none,46,M_C,43,R_C,41,W_C,43.33,Fail,below average
+377,female,group D,some high school,standard,none,80,M_A,90,R_A,82,W_A,84.0,Pass,good
+378,female,group D,master's degree,free/reduced,completed,85,M_A,95,R_A,100,W_A,93.33,Pass,excellent
+379,female,group A,some high school,standard,none,71,M_B,83,R_A,77,W_B,77.0,Pass,good
+380,male,group A,bachelor's degree,standard,none,66,M_B,64,R_B,62,W_B,64.0,Pass,average
+381,female,group B,associate's degree,standard,none,80,M_A,86,R_A,83,W_A,83.0,Pass,good
+382,male,group C,associate's degree,standard,completed,87,M_A,100,R_A,95,W_A,94.0,Pass,excellent
+383,male,group C,master's degree,free/reduced,none,79,M_B,81,R_A,71,W_B,77.0,Pass,good
+384,female,group E,some high school,free/reduced,none,38,M_C,49,R_C,45,W_C,44.0,Fail,below average
+385,female,group A,some high school,free/reduced,none,38,M_C,43,R_C,43,W_C,41.33,Fail,below average
+386,female,group E,some college,standard,none,67,M_B,76,R_B,75,W_B,72.67,Pass,good
+387,female,group E,bachelor's degree,standard,none,64,M_B,73,R_B,70,W_B,69.0,Pass,average
+388,female,group C,associate's degree,free/reduced,none,57,M_B,78,R_B,67,W_B,67.33,Pass,average
+389,female,group D,high school,standard,none,62,M_B,64,R_B,64,W_B,63.33,Pass,average
+390,male,group D,master's degree,standard,none,73,M_B,70,R_B,75,W_B,72.67,Pass,good
+391,male,group E,some high school,free/reduced,completed,73,M_B,67,R_B,59,W_B,66.33,Pass,average
+392,female,group D,some college,standard,none,77,M_B,68,R_B,77,W_B,74.0,Pass,good
+393,male,group E,some college,standard,none,76,M_B,67,R_B,67,W_B,70.0,Pass,average
+394,male,group C,associate's degree,standard,completed,57,M_B,54,R_B,56,W_B,55.67,Pass,average
+395,female,group C,some high school,standard,completed,65,M_B,74,R_B,77,W_B,72.0,Pass,good
+396,male,group A,high school,free/reduced,none,48,M_C,45,R_C,41,W_C,44.67,Fail,below average
+397,female,group B,high school,free/reduced,none,50,M_B,67,R_B,63,W_B,60.0,Pass,average
+398,female,group C,associate's degree,standard,none,85,M_A,89,R_A,95,W_A,89.67,Pass,excellent
+399,male,group B,some high school,standard,none,74,M_B,63,R_B,57,W_B,64.67,Pass,average
+400,male,group D,some high school,standard,none,60,M_B,59,R_B,54,W_B,57.67,Pass,average
+401,female,group C,some high school,standard,completed,59,M_B,54,R_B,67,W_B,60.0,Pass,average
+402,male,group A,some college,standard,none,53,M_B,43,R_C,43,W_C,46.33,Fail,below average
+403,female,group A,some college,free/reduced,none,49,M_C,65,R_B,55,W_B,56.33,Pass,average
+404,female,group D,high school,standard,completed,88,M_A,99,R_A,100,W_A,95.67,Pass,excellent
+405,female,group C,high school,standard,none,54,M_B,59,R_B,62,W_B,58.33,Pass,average
+406,female,group C,some high school,standard,none,63,M_B,73,R_B,68,W_B,68.0,Pass,average
+407,male,group B,associate's degree,standard,completed,65,M_B,65,R_B,63,W_B,64.33,Pass,average
+408,female,group B,associate's degree,standard,none,82,M_A,80,R_A,77,W_B,79.67,Pass,good
+409,female,group D,high school,free/reduced,completed,52,M_B,57,R_B,56,W_B,55.0,Pass,below average
+410,male,group D,associate's degree,standard,completed,87,M_A,84,R_A,85,W_A,85.33,Pass,excellent
+411,female,group D,master's degree,standard,completed,70,M_B,71,R_B,74,W_B,71.67,Pass,good
+412,male,group E,some college,standard,completed,84,M_A,83,R_A,78,W_B,81.67,Pass,good
+413,male,group D,associate's degree,standard,none,71,M_B,66,R_B,60,W_B,65.67,Pass,average
+414,male,group B,some high school,standard,completed,63,M_B,67,R_B,67,W_B,65.67,Pass,average
+415,female,group C,bachelor's degree,free/reduced,completed,51,M_B,72,R_B,79,W_B,67.33,Pass,average
+416,male,group E,high school,standard,none,84,M_A,73,R_B,69,W_B,75.33,Pass,good
+417,male,group C,bachelor's degree,standard,completed,71,M_B,74,R_B,68,W_B,71.0,Pass,good
+418,male,group C,associate's degree,standard,none,74,M_B,73,R_B,67,W_B,71.33,Pass,good
+419,male,group D,some college,standard,none,68,M_B,59,R_B,62,W_B,63.0,Pass,average
+420,male,group E,high school,free/reduced,completed,57,M_B,56,R_B,54,W_B,55.67,Pass,average
+421,female,group C,associate's degree,free/reduced,completed,82,M_A,93,R_A,93,W_A,89.33,Pass,excellent
+422,female,group D,high school,standard,completed,57,M_B,58,R_B,64,W_B,59.67,Pass,average
+423,female,group D,master's degree,free/reduced,completed,47,M_C,58,R_B,67,W_B,57.33,Pass,average
+424,female,group A,some high school,standard,completed,59,M_B,85,R_A,80,W_A,74.67,Pass,good
+425,male,group B,some college,free/reduced,none,41,M_C,39,R_C,34,W_C,38.0,Fail,weak
+426,female,group C,some college,free/reduced,none,62,M_B,67,R_B,62,W_B,63.67,Pass,average
+427,male,group C,bachelor's degree,standard,none,86,M_A,83,R_A,86,W_A,85.0,Pass,good
+428,male,group C,some high school,free/reduced,none,69,M_B,71,R_B,65,W_B,68.33,Pass,average
+429,male,group A,some high school,free/reduced,none,65,M_B,59,R_B,53,W_B,59.0,Pass,average
+430,male,group C,some high school,free/reduced,none,68,M_B,63,R_B,54,W_B,61.67,Pass,average
+431,male,group C,associate's degree,free/reduced,none,64,M_B,66,R_B,59,W_B,63.0,Pass,average
+432,female,group C,high school,standard,none,61,M_B,72,R_B,70,W_B,67.67,Pass,average
+433,male,group C,high school,standard,none,61,M_B,56,R_B,55,W_B,57.33,Pass,average
+434,female,group A,some high school,free/reduced,none,47,M_C,59,R_B,50,W_B,52.0,Pass,below average
+435,male,group C,some high school,standard,none,73,M_B,66,R_B,66,W_B,68.33,Pass,average
+436,male,group C,some college,free/reduced,completed,50,M_B,48,R_C,53,W_B,50.33,Pass,below average
+437,male,group D,associate's degree,standard,none,75,M_B,68,R_B,64,W_B,69.0,Pass,average
+438,male,group D,associate's degree,free/reduced,none,75,M_B,66,R_B,73,W_B,71.33,Pass,good
+439,male,group C,high school,standard,none,70,M_B,56,R_B,51,W_B,59.0,Pass,average
+440,male,group D,some high school,standard,completed,89,M_A,88,R_A,82,W_A,86.33,Pass,excellent
+441,female,group C,some college,standard,completed,67,M_B,81,R_A,79,W_B,75.67,Pass,good
+442,female,group D,high school,standard,none,78,M_B,81,R_A,80,W_A,79.67,Pass,good
+443,female,group A,some high school,free/reduced,none,59,M_B,73,R_B,69,W_B,67.0,Pass,average
+444,female,group B,associate's degree,standard,none,73,M_B,83,R_A,76,W_B,77.33,Pass,good
+445,male,group A,some high school,free/reduced,none,79,M_B,82,R_A,73,W_B,78.0,Pass,good
+446,female,group C,some high school,standard,completed,67,M_B,74,R_B,77,W_B,72.67,Pass,good
+447,male,group D,some college,free/reduced,none,69,M_B,66,R_B,60,W_B,65.0,Pass,average
+448,male,group C,high school,standard,completed,86,M_A,81,R_A,80,W_A,82.33,Pass,good
+449,male,group B,high school,standard,none,47,M_C,46,R_C,42,W_C,45.0,Fail,below average
+450,male,group B,associate's degree,standard,none,81,M_A,73,R_B,72,W_B,75.33,Pass,good
+451,female,group C,some college,free/reduced,completed,64,M_B,85,R_A,85,W_A,78.0,Pass,good
+452,female,group E,some college,standard,none,100,M_A,92,R_A,97,W_A,96.33,Pass,excellent
+453,female,group C,associate's degree,free/reduced,none,65,M_B,77,R_B,74,W_B,72.0,Pass,good
+454,male,group C,some college,free/reduced,none,65,M_B,58,R_B,49,W_C,57.33,Pass,average
+455,female,group C,associate's degree,free/reduced,none,53,M_B,61,R_B,62,W_B,58.67,Pass,average
+456,male,group C,bachelor's degree,free/reduced,none,37,M_C,56,R_B,47,W_C,46.67,Fail,below average
+457,female,group D,bachelor's degree,standard,none,79,M_B,89,R_A,89,W_A,85.67,Pass,excellent
+458,male,group D,associate's degree,free/reduced,none,53,M_B,54,R_B,48,W_C,51.67,Pass,below average
+459,female,group E,bachelor's degree,standard,none,100,M_A,100,R_A,100,W_A,100.0,Pass,excellent
+460,male,group B,high school,standard,completed,72,M_B,65,R_B,68,W_B,68.33,Pass,average
+461,male,group C,bachelor's degree,free/reduced,none,53,M_B,58,R_B,55,W_B,55.33,Pass,average
+462,male,group B,some college,free/reduced,none,54,M_B,54,R_B,45,W_C,51.0,Pass,below average
+463,female,group E,some college,standard,none,71,M_B,70,R_B,76,W_B,72.33,Pass,good
+464,female,group C,some college,free/reduced,none,77,M_B,90,R_A,91,W_A,86.0,Pass,excellent
+465,male,group A,bachelor's degree,standard,completed,75,M_B,58,R_B,62,W_B,65.0,Pass,average
+466,female,group C,some college,standard,none,84,M_A,87,R_A,91,W_A,87.33,Pass,excellent
+467,female,group D,associate's degree,free/reduced,none,26,M_C,31,R_C,38,W_C,31.67,Fail,weak
+468,male,group A,high school,free/reduced,completed,72,M_B,67,R_B,65,W_B,68.0,Pass,average
+469,female,group A,high school,free/reduced,completed,77,M_B,88,R_A,85,W_A,83.33,Pass,good
+470,male,group C,some college,standard,none,91,M_A,74,R_B,76,W_B,80.33,Pass,good
+471,female,group C,associate's degree,standard,completed,83,M_A,85,R_A,90,W_A,86.0,Pass,excellent
+472,female,group C,high school,standard,none,63,M_B,69,R_B,74,W_B,68.67,Pass,average
+473,female,group C,associate's degree,standard,completed,68,M_B,86,R_A,84,W_A,79.33,Pass,good
+474,female,group D,some high school,standard,none,59,M_B,67,R_B,61,W_B,62.33,Pass,average
+475,female,group B,associate's degree,standard,completed,90,M_A,90,R_A,91,W_A,90.33,Pass,excellent
+476,female,group D,bachelor's degree,standard,completed,71,M_B,76,R_B,83,W_A,76.67,Pass,good
+477,male,group E,bachelor's degree,standard,completed,76,M_B,62,R_B,66,W_B,68.0,Pass,average
+478,male,group D,associate's degree,standard,none,80,M_A,68,R_B,72,W_B,73.33,Pass,good
+479,female,group D,master's degree,standard,none,55,M_B,64,R_B,70,W_B,63.0,Pass,average
+480,male,group E,associate's degree,standard,none,76,M_B,71,R_B,67,W_B,71.33,Pass,good
+481,male,group B,high school,standard,completed,73,M_B,71,R_B,68,W_B,70.67,Pass,good
+482,female,group D,associate's degree,free/reduced,none,52,M_B,59,R_B,56,W_B,55.67,Pass,average
+483,male,group C,some college,free/reduced,none,68,M_B,68,R_B,61,W_B,65.67,Pass,average
+484,male,group A,high school,standard,none,59,M_B,52,R_B,46,W_C,52.33,Pass,below average
+485,female,group B,associate's degree,standard,none,49,M_C,52,R_B,54,W_B,51.67,Pass,below average
+486,male,group C,high school,standard,none,70,M_B,74,R_B,71,W_B,71.67,Pass,good
+487,male,group D,some college,free/reduced,none,61,M_B,47,R_C,56,W_B,54.67,Pass,below average
+488,female,group C,associate's degree,free/reduced,none,60,M_B,75,R_B,74,W_B,69.67,Pass,average
+489,male,group B,some high school,standard,completed,64,M_B,53,R_B,57,W_B,58.0,Pass,average
+490,male,group A,associate's degree,free/reduced,completed,79,M_B,82,R_A,82,W_A,81.0,Pass,good
+491,female,group A,associate's degree,free/reduced,none,65,M_B,85,R_A,76,W_B,75.33,Pass,good
+492,female,group C,associate's degree,standard,none,64,M_B,64,R_B,70,W_B,66.0,Pass,average
+493,female,group C,some college,standard,none,83,M_A,83,R_A,90,W_A,85.33,Pass,excellent
+494,female,group C,bachelor's degree,standard,none,81,M_A,88,R_A,90,W_A,86.33,Pass,excellent
+495,female,group B,high school,standard,none,54,M_B,64,R_B,68,W_B,62.0,Pass,average
+496,male,group D,high school,standard,completed,68,M_B,64,R_B,66,W_B,66.0,Pass,average
+497,female,group C,some college,standard,none,54,M_B,48,R_C,52,W_B,51.33,Pass,below average
+498,female,group D,some college,free/reduced,completed,59,M_B,78,R_B,76,W_B,71.0,Pass,good
+499,female,group B,some high school,standard,none,66,M_B,69,R_B,68,W_B,67.67,Pass,average
+500,male,group E,some college,standard,none,76,M_B,71,R_B,72,W_B,73.0,Pass,good
+501,female,group D,master's degree,standard,none,74,M_B,79,R_B,82,W_A,78.33,Pass,good
+502,female,group B,associate's degree,standard,completed,94,M_A,87,R_A,92,W_A,91.0,Pass,excellent
+503,male,group C,some college,free/reduced,none,63,M_B,61,R_B,54,W_B,59.33,Pass,average
+504,female,group E,associate's degree,standard,completed,95,M_A,89,R_A,92,W_A,92.0,Pass,excellent
+505,female,group D,master's degree,free/reduced,none,40,M_C,59,R_B,54,W_B,51.0,Pass,below average
+506,female,group B,some high school,standard,none,82,M_A,82,R_A,80,W_A,81.33,Pass,good
+507,male,group A,high school,standard,none,68,M_B,70,R_B,66,W_B,68.0,Pass,average
+508,male,group B,bachelor's degree,free/reduced,none,55,M_B,59,R_B,54,W_B,56.0,Pass,average
+509,male,group C,master's degree,standard,none,79,M_B,78,R_B,77,W_B,78.0,Pass,good
+510,female,group C,bachelor's degree,standard,none,86,M_A,92,R_A,87,W_A,88.33,Pass,excellent
+511,male,group D,some college,standard,none,76,M_B,71,R_B,73,W_B,73.33,Pass,good
+512,male,group A,some high school,standard,none,64,M_B,50,R_B,43,W_C,52.33,Pass,below average
+513,male,group D,some high school,free/reduced,none,62,M_B,49,R_C,52,W_B,54.33,Pass,below average
+514,female,group B,some high school,standard,completed,54,M_B,61,R_B,62,W_B,59.0,Pass,average
+515,female,group B,master's degree,free/reduced,completed,77,M_B,97,R_A,94,W_A,89.33,Pass,excellent
+516,female,group C,some high school,standard,completed,76,M_B,87,R_A,85,W_A,82.67,Pass,good
+517,female,group D,some college,standard,none,74,M_B,89,R_A,84,W_A,82.33,Pass,good
+518,female,group E,some college,standard,completed,66,M_B,74,R_B,73,W_B,71.0,Pass,good
+519,female,group D,some high school,standard,completed,66,M_B,78,R_B,78,W_B,74.0,Pass,good
+520,female,group B,high school,free/reduced,completed,67,M_B,78,R_B,79,W_B,74.67,Pass,good
+521,male,group D,some college,standard,none,71,M_B,49,R_C,52,W_B,57.33,Pass,average
+522,female,group C,associate's degree,standard,none,91,M_A,86,R_A,84,W_A,87.0,Pass,excellent
+523,male,group D,bachelor's degree,standard,none,69,M_B,58,R_B,57,W_B,61.33,Pass,average
+524,male,group C,master's degree,free/reduced,none,54,M_B,59,R_B,50,W_B,54.33,Pass,below average
+525,male,group C,high school,standard,completed,53,M_B,52,R_B,49,W_C,51.33,Pass,below average
+526,male,group E,some college,standard,none,68,M_B,60,R_B,59,W_B,62.33,Pass,average
+527,male,group C,some high school,free/reduced,completed,56,M_B,61,R_B,60,W_B,59.0,Pass,average
+528,female,group C,high school,free/reduced,none,36,M_C,53,R_B,43,W_C,44.0,Fail,below average
+529,female,group D,bachelor's degree,free/reduced,none,29,M_C,41,R_C,47,W_C,39.0,Fail,weak
+530,female,group C,associate's degree,standard,none,62,M_B,74,R_B,70,W_B,68.67,Pass,average
+531,female,group C,associate's degree,standard,completed,68,M_B,67,R_B,73,W_B,69.33,Pass,average
+532,female,group C,some high school,standard,none,47,M_C,54,R_B,53,W_B,51.33,Pass,below average
+533,male,group E,associate's degree,standard,completed,62,M_B,61,R_B,58,W_B,60.33,Pass,average
+534,female,group E,associate's degree,standard,completed,79,M_B,88,R_A,94,W_A,87.0,Pass,excellent
+535,male,group B,high school,standard,completed,73,M_B,69,R_B,68,W_B,70.0,Pass,average
+536,female,group C,bachelor's degree,free/reduced,completed,66,M_B,83,R_A,83,W_A,77.33,Pass,good
+537,male,group C,associate's degree,standard,completed,51,M_B,60,R_B,58,W_B,56.33,Pass,average
+538,female,group D,high school,standard,none,51,M_B,66,R_B,62,W_B,59.67,Pass,average
+539,male,group E,bachelor's degree,standard,completed,85,M_A,66,R_B,71,W_B,74.0,Pass,good
+540,male,group A,associate's degree,standard,completed,97,M_A,92,R_A,86,W_A,91.67,Pass,excellent
+541,male,group C,high school,standard,completed,75,M_B,69,R_B,68,W_B,70.67,Pass,good
+542,male,group D,associate's degree,free/reduced,completed,79,M_B,82,R_A,80,W_A,80.33,Pass,good
+543,female,group C,associate's degree,standard,none,81,M_A,77,R_B,79,W_B,79.0,Pass,good
+544,female,group D,associate's degree,standard,none,82,M_A,95,R_A,89,W_A,88.67,Pass,excellent
+545,female,group D,master's degree,standard,none,64,M_B,63,R_B,66,W_B,64.33,Pass,average
+546,male,group E,some high school,free/reduced,completed,78,M_B,83,R_A,80,W_A,80.33,Pass,good
+547,female,group A,some high school,standard,completed,92,M_A,100,R_A,97,W_A,96.33,Pass,excellent
+548,male,group C,high school,standard,completed,72,M_B,67,R_B,64,W_B,67.67,Pass,average
+549,female,group C,high school,free/reduced,none,62,M_B,67,R_B,64,W_B,64.33,Pass,average
+550,male,group C,master's degree,standard,none,79,M_B,72,R_B,69,W_B,73.33,Pass,good
+551,male,group C,some high school,free/reduced,none,79,M_B,76,R_B,65,W_B,73.33,Pass,good
+552,male,group B,bachelor's degree,free/reduced,completed,87,M_A,90,R_A,88,W_A,88.33,Pass,excellent
+553,female,group B,associate's degree,standard,none,40,M_C,48,R_C,50,W_B,46.0,Fail,below average
+554,male,group D,some college,free/reduced,none,77,M_B,62,R_B,64,W_B,67.67,Pass,average
+555,male,group E,associate's degree,standard,none,53,M_B,45,R_C,40,W_C,46.0,Fail,below average
+556,female,group C,some college,free/reduced,none,32,M_C,39,R_C,33,W_C,34.67,Fail,weak
+557,female,group C,associate's degree,standard,completed,55,M_B,72,R_B,79,W_B,68.67,Pass,average
+558,male,group C,master's degree,free/reduced,none,61,M_B,67,R_B,66,W_B,64.67,Pass,average
+559,female,group B,associate's degree,free/reduced,none,53,M_B,70,R_B,70,W_B,64.33,Pass,average
+560,male,group D,some high school,standard,none,73,M_B,66,R_B,62,W_B,67.0,Pass,average
+561,female,group D,some college,standard,completed,74,M_B,75,R_B,79,W_B,76.0,Pass,good
+562,female,group C,some college,standard,none,63,M_B,74,R_B,74,W_B,70.33,Pass,good
+563,male,group C,bachelor's degree,standard,completed,96,M_A,90,R_A,92,W_A,92.67,Pass,excellent
+564,female,group D,some college,free/reduced,completed,63,M_B,80,R_A,80,W_A,74.33,Pass,good
+565,male,group B,bachelor's degree,free/reduced,none,48,M_C,51,R_B,46,W_C,48.33,Fail,below average
+566,male,group B,associate's degree,standard,none,48,M_C,43,R_C,45,W_C,45.33,Fail,below average
+567,female,group E,bachelor's degree,free/reduced,completed,92,M_A,100,R_A,100,W_A,97.33,Pass,excellent
+568,female,group D,master's degree,free/reduced,completed,61,M_B,71,R_B,78,W_B,70.0,Pass,average
+569,male,group B,high school,free/reduced,none,63,M_B,48,R_C,47,W_C,52.67,Pass,below average
+570,male,group D,bachelor's degree,free/reduced,none,68,M_B,68,R_B,67,W_B,67.67,Pass,average
+571,male,group B,some college,standard,completed,71,M_B,75,R_B,70,W_B,72.0,Pass,good
+572,male,group A,bachelor's degree,standard,none,91,M_A,96,R_A,92,W_A,93.0,Pass,excellent
+573,female,group C,some college,standard,none,53,M_B,62,R_B,56,W_B,57.0,Pass,average
+574,female,group C,high school,free/reduced,completed,50,M_B,66,R_B,64,W_B,60.0,Pass,average
+575,female,group E,high school,standard,none,74,M_B,81,R_A,71,W_B,75.33,Pass,good
+576,male,group A,associate's degree,free/reduced,completed,40,M_C,55,R_B,53,W_B,49.33,Fail,below average
+577,male,group A,some college,standard,completed,61,M_B,51,R_B,52,W_B,54.67,Pass,below average
+578,female,group B,high school,standard,none,81,M_A,91,R_A,89,W_A,87.0,Pass,excellent
+579,female,group B,some college,free/reduced,completed,48,M_C,56,R_B,58,W_B,54.0,Pass,below average
+580,female,group D,master's degree,standard,none,53,M_B,61,R_B,68,W_B,60.67,Pass,average
+581,female,group D,some high school,standard,none,81,M_A,97,R_A,96,W_A,91.33,Pass,excellent
+582,female,group E,some high school,standard,none,77,M_B,79,R_B,80,W_A,78.67,Pass,good
+583,female,group D,bachelor's degree,free/reduced,none,63,M_B,73,R_B,78,W_B,71.33,Pass,good
+584,female,group D,associate's degree,standard,completed,73,M_B,75,R_B,80,W_A,76.0,Pass,good
+585,female,group D,some college,standard,none,69,M_B,77,R_B,77,W_B,74.33,Pass,good
+586,female,group C,associate's degree,standard,none,65,M_B,76,R_B,76,W_B,72.33,Pass,good
+587,female,group A,high school,standard,none,55,M_B,73,R_B,73,W_B,67.0,Pass,average
+588,female,group C,bachelor's degree,free/reduced,none,44,M_C,63,R_B,62,W_B,56.33,Pass,average
+589,female,group C,some college,standard,none,54,M_B,64,R_B,65,W_B,61.0,Pass,average
+590,female,group A,some high school,standard,none,48,M_C,66,R_B,65,W_B,59.67,Pass,average
+591,male,group C,some college,free/reduced,none,58,M_B,57,R_B,54,W_B,56.33,Pass,average
+592,male,group A,some high school,standard,none,71,M_B,62,R_B,50,W_B,61.0,Pass,average
+593,male,group E,bachelor's degree,standard,none,68,M_B,68,R_B,64,W_B,66.67,Pass,average
+594,female,group E,high school,standard,none,74,M_B,76,R_B,73,W_B,74.33,Pass,good
+595,female,group C,bachelor's degree,standard,completed,92,M_A,100,R_A,99,W_A,97.0,Pass,excellent
+596,female,group C,bachelor's degree,standard,completed,56,M_B,79,R_B,72,W_B,69.0,Pass,average
+597,male,group B,high school,free/reduced,none,30,M_C,24,R_C,15,W_C,23.0,Fail,weak
+598,male,group A,some high school,standard,none,53,M_B,54,R_B,48,W_C,51.67,Pass,below average
+599,female,group D,high school,standard,none,69,M_B,77,R_B,73,W_B,73.0,Pass,good
+600,female,group D,some high school,standard,none,65,M_B,82,R_A,81,W_A,76.0,Pass,good
+601,female,group D,master's degree,standard,none,54,M_B,60,R_B,63,W_B,59.0,Pass,average
+602,female,group C,high school,standard,none,29,M_C,29,R_C,30,W_C,29.33,Fail,weak
+603,female,group E,some college,standard,none,76,M_B,78,R_B,80,W_A,78.0,Pass,good
+604,male,group D,high school,free/reduced,none,60,M_B,57,R_B,51,W_B,56.0,Pass,average
+605,male,group D,master's degree,free/reduced,completed,84,M_A,89,R_A,90,W_A,87.67,Pass,excellent
+606,male,group C,some high school,standard,none,75,M_B,72,R_B,62,W_B,69.67,Pass,average
+607,female,group C,associate's degree,standard,none,85,M_A,84,R_A,82,W_A,83.67,Pass,good
+608,female,group C,master's degree,free/reduced,none,40,M_C,58,R_B,54,W_B,50.67,Pass,below average
+609,female,group E,some college,standard,none,61,M_B,64,R_B,62,W_B,62.33,Pass,average
+610,female,group B,associate's degree,standard,none,58,M_B,63,R_B,65,W_B,62.0,Pass,average
+611,male,group D,some college,free/reduced,completed,69,M_B,60,R_B,63,W_B,64.0,Pass,average
+612,female,group C,some college,standard,none,58,M_B,59,R_B,66,W_B,61.0,Pass,average
+613,male,group C,bachelor's degree,standard,completed,94,M_A,90,R_A,91,W_A,91.67,Pass,excellent
+614,female,group C,associate's degree,standard,none,65,M_B,77,R_B,74,W_B,72.0,Pass,good
+615,female,group A,associate's degree,standard,none,82,M_A,93,R_A,93,W_A,89.33,Pass,excellent
+616,female,group C,high school,standard,none,60,M_B,68,R_B,72,W_B,66.67,Pass,average
+617,female,group E,bachelor's degree,standard,none,37,M_C,45,R_C,38,W_C,40.0,Fail,weak
+618,male,group D,bachelor's degree,standard,none,88,M_A,78,R_B,83,W_A,83.0,Pass,good
+619,male,group D,master's degree,standard,none,95,M_A,81,R_A,84,W_A,86.67,Pass,excellent
+620,male,group C,associate's degree,free/reduced,completed,65,M_B,73,R_B,68,W_B,68.67,Pass,average
+621,female,group C,high school,free/reduced,none,35,M_C,61,R_B,54,W_B,50.0,Pass,below average
+622,male,group B,bachelor's degree,free/reduced,none,62,M_B,63,R_B,56,W_B,60.33,Pass,average
+623,male,group C,high school,free/reduced,completed,58,M_B,51,R_B,52,W_B,53.67,Pass,below average
+624,male,group A,some college,standard,completed,100,M_A,96,R_A,86,W_A,94.0,Pass,excellent
+625,female,group E,bachelor's degree,free/reduced,none,61,M_B,58,R_B,62,W_B,60.33,Pass,average
+626,male,group D,some college,standard,completed,100,M_A,97,R_A,99,W_A,98.67,Pass,excellent
+627,male,group B,associate's degree,free/reduced,completed,69,M_B,70,R_B,63,W_B,67.33,Pass,average
+628,male,group D,associate's degree,standard,none,61,M_B,48,R_C,46,W_C,51.67,Pass,below average
+629,male,group D,some college,free/reduced,none,49,M_C,57,R_B,46,W_C,50.67,Pass,below average
+630,female,group C,some high school,standard,completed,44,M_C,51,R_B,55,W_B,50.0,Pass,below average
+631,male,group D,some college,standard,none,67,M_B,64,R_B,70,W_B,67.0,Pass,average
+632,male,group B,high school,standard,none,79,M_B,60,R_B,65,W_B,68.0,Pass,average
+633,female,group B,bachelor's degree,standard,completed,66,M_B,74,R_B,81,W_A,73.67,Pass,good
+634,female,group C,high school,standard,none,75,M_B,88,R_A,85,W_A,82.67,Pass,good
+635,male,group D,some high school,standard,none,84,M_A,84,R_A,80,W_A,82.67,Pass,good
+636,male,group A,high school,standard,none,71,M_B,74,R_B,64,W_B,69.67,Pass,average
+637,female,group B,high school,free/reduced,completed,67,M_B,80,R_A,81,W_A,76.0,Pass,good
+638,female,group D,some high school,standard,completed,80,M_A,92,R_A,88,W_A,86.67,Pass,excellent
+639,male,group E,some college,standard,none,86,M_A,76,R_B,74,W_B,78.67,Pass,good
+640,female,group D,associate's degree,standard,none,76,M_B,74,R_B,73,W_B,74.33,Pass,good
+641,male,group D,high school,standard,none,41,M_C,52,R_B,51,W_B,48.0,Fail,below average
+642,female,group D,associate's degree,free/reduced,completed,74,M_B,88,R_A,90,W_A,84.0,Pass,good
+643,female,group B,some high school,free/reduced,none,72,M_B,81,R_A,79,W_B,77.33,Pass,good
+644,female,group E,high school,standard,completed,74,M_B,79,R_B,80,W_A,77.67,Pass,good
+645,male,group B,high school,standard,none,70,M_B,65,R_B,60,W_B,65.0,Pass,average
+646,female,group B,bachelor's degree,standard,completed,65,M_B,81,R_A,81,W_A,75.67,Pass,good
+647,female,group D,associate's degree,standard,none,59,M_B,70,R_B,65,W_B,64.67,Pass,average
+648,female,group E,high school,free/reduced,none,64,M_B,62,R_B,68,W_B,64.67,Pass,average
+649,female,group B,high school,standard,none,50,M_B,53,R_B,55,W_B,52.67,Pass,below average
+650,female,group D,some college,standard,completed,69,M_B,79,R_B,81,W_A,76.33,Pass,good
+651,male,group C,some high school,free/reduced,completed,51,M_B,56,R_B,53,W_B,53.33,Pass,below average
+652,female,group A,high school,standard,completed,68,M_B,80,R_A,76,W_B,74.67,Pass,good
+653,female,group D,some college,standard,completed,85,M_A,86,R_A,98,W_A,89.67,Pass,excellent
+654,female,group A,associate's degree,standard,completed,65,M_B,70,R_B,74,W_B,69.67,Pass,average
+655,female,group B,some high school,standard,none,73,M_B,79,R_B,79,W_B,77.0,Pass,good
+656,female,group B,some college,standard,none,62,M_B,67,R_B,67,W_B,65.33,Pass,average
+657,male,group C,associate's degree,free/reduced,none,77,M_B,67,R_B,64,W_B,69.33,Pass,average
+658,male,group D,some high school,standard,none,69,M_B,66,R_B,61,W_B,65.33,Pass,average
+659,female,group D,associate's degree,free/reduced,none,43,M_C,60,R_B,58,W_B,53.67,Pass,below average
+660,male,group D,associate's degree,standard,none,90,M_A,87,R_A,85,W_A,87.33,Pass,excellent
+661,male,group C,some college,free/reduced,none,74,M_B,77,R_B,73,W_B,74.67,Pass,good
+662,male,group C,some high school,standard,none,73,M_B,66,R_B,63,W_B,67.33,Pass,average
+663,female,group D,some college,free/reduced,none,55,M_B,71,R_B,69,W_B,65.0,Pass,average
+664,female,group C,high school,standard,none,65,M_B,69,R_B,67,W_B,67.0,Pass,average
+665,male,group D,associate's degree,standard,none,80,M_A,63,R_B,63,W_B,68.67,Pass,average
+666,female,group C,some high school,free/reduced,completed,50,M_B,60,R_B,60,W_B,56.67,Pass,average
+667,female,group C,some college,free/reduced,completed,63,M_B,73,R_B,71,W_B,69.0,Pass,average
+668,female,group B,bachelor's degree,free/reduced,none,77,M_B,85,R_A,87,W_A,83.0,Pass,good
+669,male,group C,some college,standard,none,73,M_B,74,R_B,61,W_B,69.33,Pass,average
+670,male,group D,associate's degree,standard,completed,81,M_A,72,R_B,77,W_B,76.67,Pass,good
+671,female,group C,high school,free/reduced,none,66,M_B,76,R_B,68,W_B,70.0,Pass,average
+672,male,group D,associate's degree,free/reduced,none,52,M_B,57,R_B,50,W_B,53.0,Pass,below average
+673,female,group C,some college,standard,none,69,M_B,78,R_B,76,W_B,74.33,Pass,good
+674,female,group C,associate's degree,standard,completed,65,M_B,84,R_A,84,W_A,77.67,Pass,good
+675,female,group D,high school,standard,completed,69,M_B,77,R_B,78,W_B,74.67,Pass,good
+676,female,group B,some college,standard,completed,50,M_B,64,R_B,66,W_B,60.0,Pass,average
+677,female,group E,some college,standard,completed,73,M_B,78,R_B,76,W_B,75.67,Pass,good
+678,female,group C,some high school,standard,completed,70,M_B,82,R_A,76,W_B,76.0,Pass,good
+679,male,group D,associate's degree,free/reduced,none,81,M_A,75,R_B,78,W_B,78.0,Pass,good
+680,male,group D,some college,free/reduced,none,63,M_B,61,R_B,60,W_B,61.33,Pass,average
+681,female,group D,high school,standard,none,67,M_B,72,R_B,74,W_B,71.0,Pass,good
+682,male,group B,high school,standard,none,60,M_B,68,R_B,60,W_B,62.67,Pass,average
+683,male,group B,high school,standard,none,62,M_B,55,R_B,54,W_B,57.0,Pass,average
+684,female,group C,some high school,free/reduced,completed,29,M_C,40,R_C,44,W_C,37.67,Fail,weak
+685,male,group B,some college,standard,completed,62,M_B,66,R_B,68,W_B,65.33,Pass,average
+686,female,group E,master's degree,standard,completed,94,M_A,99,R_A,100,W_A,97.67,Pass,excellent
+687,male,group E,some college,standard,completed,85,M_A,75,R_B,68,W_B,76.0,Pass,good
+688,male,group D,associate's degree,free/reduced,none,77,M_B,78,R_B,73,W_B,76.0,Pass,good
+689,male,group A,high school,free/reduced,none,53,M_B,58,R_B,44,W_C,51.67,Pass,below average
+690,male,group E,some college,free/reduced,none,93,M_A,90,R_A,83,W_A,88.67,Pass,excellent
+691,female,group C,associate's degree,standard,none,49,M_C,53,R_B,53,W_B,51.67,Pass,below average
+692,female,group E,associate's degree,free/reduced,none,73,M_B,76,R_B,78,W_B,75.67,Pass,good
+693,female,group C,bachelor's degree,free/reduced,completed,66,M_B,74,R_B,81,W_A,73.67,Pass,good
+694,female,group D,associate's degree,standard,none,77,M_B,77,R_B,73,W_B,75.67,Pass,good
+695,female,group C,some high school,standard,none,49,M_C,63,R_B,56,W_B,56.0,Pass,average
+696,female,group D,some college,free/reduced,none,79,M_B,89,R_A,86,W_A,84.67,Pass,good
+697,female,group C,associate's degree,standard,completed,75,M_B,82,R_A,90,W_A,82.33,Pass,good
+698,female,group A,bachelor's degree,standard,none,59,M_B,72,R_B,70,W_B,67.0,Pass,average
+699,female,group D,associate's degree,standard,completed,57,M_B,78,R_B,79,W_B,71.33,Pass,good
+700,male,group C,high school,free/reduced,none,66,M_B,66,R_B,59,W_B,63.67,Pass,average
+701,female,group E,bachelor's degree,standard,completed,79,M_B,81,R_A,82,W_A,80.67,Pass,good
+702,female,group B,some high school,standard,none,57,M_B,67,R_B,72,W_B,65.33,Pass,average
+703,male,group A,bachelor's degree,standard,completed,87,M_A,84,R_A,87,W_A,86.0,Pass,excellent
+704,female,group D,some college,standard,none,63,M_B,64,R_B,67,W_B,64.67,Pass,average
+705,female,group B,some high school,free/reduced,completed,59,M_B,63,R_B,64,W_B,62.0,Pass,average
+706,male,group A,bachelor's degree,free/reduced,none,62,M_B,72,R_B,65,W_B,66.33,Pass,average
+707,male,group D,high school,standard,none,46,M_C,34,R_C,36,W_C,38.67,Fail,weak
+708,male,group C,some college,standard,none,66,M_B,59,R_B,52,W_B,59.0,Pass,average
+709,male,group D,high school,standard,none,89,M_A,87,R_A,79,W_B,85.0,Pass,good
+710,female,group D,associate's degree,free/reduced,completed,42,M_C,61,R_B,58,W_B,53.67,Pass,below average
+711,male,group C,some college,standard,completed,93,M_A,84,R_A,90,W_A,89.0,Pass,excellent
+712,female,group E,some high school,standard,completed,80,M_A,85,R_A,85,W_A,83.33,Pass,good
+713,female,group D,some college,standard,none,98,M_A,100,R_A,99,W_A,99.0,Pass,excellent
+714,male,group D,master's degree,standard,none,81,M_A,81,R_A,84,W_A,82.0,Pass,good
+715,female,group B,some high school,standard,completed,60,M_B,70,R_B,74,W_B,68.0,Pass,average
+716,female,group B,associate's degree,free/reduced,completed,76,M_B,94,R_A,87,W_A,85.67,Pass,excellent
+717,male,group C,associate's degree,standard,completed,73,M_B,78,R_B,72,W_B,74.33,Pass,good
+718,female,group C,associate's degree,standard,completed,96,M_A,96,R_A,99,W_A,97.0,Pass,excellent
+719,female,group C,high school,standard,none,76,M_B,76,R_B,74,W_B,75.33,Pass,good
+720,male,group E,associate's degree,free/reduced,completed,91,M_A,73,R_B,80,W_A,81.33,Pass,good
+721,female,group C,some college,free/reduced,none,62,M_B,72,R_B,70,W_B,68.0,Pass,average
+722,male,group D,some high school,free/reduced,completed,55,M_B,59,R_B,59,W_B,57.67,Pass,average
+723,female,group B,some high school,free/reduced,completed,74,M_B,90,R_A,88,W_A,84.0,Pass,good
+724,male,group C,high school,standard,none,50,M_B,48,R_C,42,W_C,46.67,Fail,below average
+725,male,group B,some college,standard,none,47,M_C,43,R_C,41,W_C,43.67,Fail,below average
+726,male,group E,some college,standard,completed,81,M_A,74,R_B,71,W_B,75.33,Pass,good
+727,female,group E,associate's degree,standard,completed,65,M_B,75,R_B,77,W_B,72.33,Pass,good
+728,male,group E,some high school,standard,completed,68,M_B,51,R_B,57,W_B,58.67,Pass,average
+729,female,group D,high school,free/reduced,none,73,M_B,92,R_A,84,W_A,83.0,Pass,good
+730,male,group C,some college,standard,none,53,M_B,39,R_C,37,W_C,43.0,Fail,below average
+731,female,group B,associate's degree,free/reduced,completed,68,M_B,77,R_B,80,W_A,75.0,Pass,good
+732,male,group A,some high school,free/reduced,none,55,M_B,46,R_C,43,W_C,48.0,Fail,below average
+733,female,group C,some college,standard,completed,87,M_A,89,R_A,94,W_A,90.0,Pass,excellent
+734,male,group D,some high school,standard,none,55,M_B,47,R_C,44,W_C,48.67,Fail,below average
+735,female,group E,some college,free/reduced,none,53,M_B,58,R_B,57,W_B,56.0,Pass,average
+736,male,group C,master's degree,standard,none,67,M_B,57,R_B,59,W_B,61.0,Pass,average
+737,male,group C,associate's degree,standard,none,92,M_A,79,R_B,84,W_A,85.0,Pass,good
+738,female,group B,some college,free/reduced,completed,53,M_B,66,R_B,73,W_B,64.0,Pass,average
+739,male,group D,associate's degree,standard,none,81,M_A,71,R_B,73,W_B,75.0,Pass,good
+740,male,group C,high school,free/reduced,none,61,M_B,60,R_B,55,W_B,58.67,Pass,average
+741,male,group D,bachelor's degree,standard,none,80,M_A,73,R_B,72,W_B,75.0,Pass,good
+742,female,group A,associate's degree,free/reduced,none,37,M_C,57,R_B,56,W_B,50.0,Pass,below average
+743,female,group C,high school,standard,none,81,M_A,84,R_A,82,W_A,82.33,Pass,good
+744,female,group C,associate's degree,standard,completed,59,M_B,73,R_B,72,W_B,68.0,Pass,average
+745,male,group B,some college,free/reduced,none,55,M_B,55,R_B,47,W_C,52.33,Pass,below average
+746,male,group D,associate's degree,standard,none,72,M_B,79,R_B,74,W_B,75.0,Pass,good
+747,male,group D,high school,standard,none,69,M_B,75,R_B,71,W_B,71.67,Pass,good
+748,male,group C,some college,standard,none,69,M_B,64,R_B,68,W_B,67.0,Pass,average
+749,female,group C,bachelor's degree,free/reduced,none,50,M_B,60,R_B,59,W_B,56.33,Pass,average
+750,male,group B,some college,standard,completed,87,M_A,84,R_A,86,W_A,85.67,Pass,excellent
+751,male,group D,some high school,standard,completed,71,M_B,69,R_B,68,W_B,69.33,Pass,average
+752,male,group E,some college,standard,none,68,M_B,72,R_B,65,W_B,68.33,Pass,average
+753,male,group C,master's degree,free/reduced,completed,79,M_B,77,R_B,75,W_B,77.0,Pass,good
+754,female,group C,some high school,standard,completed,77,M_B,90,R_A,85,W_A,84.0,Pass,good
+755,male,group C,associate's degree,free/reduced,none,58,M_B,55,R_B,53,W_B,55.33,Pass,average
+756,female,group E,associate's degree,standard,none,84,M_A,95,R_A,92,W_A,90.33,Pass,excellent
+757,male,group D,some college,standard,none,55,M_B,58,R_B,52,W_B,55.0,Pass,below average
+758,male,group E,bachelor's degree,free/reduced,completed,70,M_B,68,R_B,72,W_B,70.0,Pass,average
+759,female,group D,some college,free/reduced,completed,52,M_B,59,R_B,65,W_B,58.67,Pass,average
+760,male,group B,some college,standard,completed,69,M_B,77,R_B,77,W_B,74.33,Pass,good
+761,female,group C,high school,free/reduced,none,53,M_B,72,R_B,64,W_B,63.0,Pass,average
+762,female,group D,some high school,standard,none,48,M_C,58,R_B,54,W_B,53.33,Pass,below average
+763,male,group D,some high school,standard,completed,78,M_B,81,R_A,86,W_A,81.67,Pass,good
+764,female,group B,high school,standard,none,62,M_B,62,R_B,63,W_B,62.33,Pass,average
+765,male,group D,some college,standard,none,60,M_B,63,R_B,59,W_B,60.67,Pass,average
+766,female,group B,high school,standard,none,74,M_B,72,R_B,72,W_B,72.67,Pass,good
+767,female,group C,high school,standard,completed,58,M_B,75,R_B,77,W_B,70.0,Pass,average
+768,male,group B,high school,standard,completed,76,M_B,62,R_B,60,W_B,66.0,Pass,average
+769,female,group D,some high school,standard,none,68,M_B,71,R_B,75,W_B,71.33,Pass,good
+770,male,group A,some college,free/reduced,none,58,M_B,60,R_B,57,W_B,58.33,Pass,average
+771,male,group B,high school,standard,none,52,M_B,48,R_C,49,W_C,49.67,Fail,below average
+772,male,group D,bachelor's degree,standard,none,75,M_B,73,R_B,74,W_B,74.0,Pass,good
+773,female,group B,some high school,free/reduced,completed,52,M_B,67,R_B,72,W_B,63.67,Pass,average
+774,female,group C,bachelor's degree,free/reduced,none,62,M_B,78,R_B,79,W_B,73.0,Pass,good
+775,male,group B,some college,standard,none,66,M_B,65,R_B,60,W_B,63.67,Pass,average
+776,female,group B,some high school,free/reduced,none,49,M_C,58,R_B,55,W_B,54.0,Pass,below average
+777,female,group B,high school,standard,none,66,M_B,72,R_B,70,W_B,69.33,Pass,average
+778,female,group C,some college,free/reduced,none,35,M_C,44,R_C,43,W_C,40.67,Fail,below average
+779,female,group A,some college,standard,completed,72,M_B,79,R_B,82,W_A,77.67,Pass,good
+780,male,group E,associate's degree,standard,completed,94,M_A,85,R_A,82,W_A,87.0,Pass,excellent
+781,female,group D,associate's degree,free/reduced,none,46,M_C,56,R_B,57,W_B,53.0,Pass,below average
+782,female,group B,master's degree,standard,none,77,M_B,90,R_A,84,W_A,83.67,Pass,good
+783,female,group B,high school,free/reduced,completed,76,M_B,85,R_A,82,W_A,81.0,Pass,good
+784,female,group C,associate's degree,standard,completed,52,M_B,59,R_B,62,W_B,57.67,Pass,average
+785,male,group C,bachelor's degree,standard,completed,91,M_A,81,R_A,79,W_B,83.67,Pass,good
+786,female,group B,some high school,standard,completed,32,M_C,51,R_B,44,W_C,42.33,Fail,below average
+787,female,group E,some high school,free/reduced,none,72,M_B,79,R_B,77,W_B,76.0,Pass,good
+788,female,group B,some college,standard,none,19,M_C,38,R_C,32,W_C,29.67,Fail,weak
+789,male,group C,associate's degree,free/reduced,none,68,M_B,65,R_B,61,W_B,64.67,Pass,average
+790,female,group C,master's degree,free/reduced,none,52,M_B,65,R_B,61,W_B,59.33,Pass,average
+791,female,group B,high school,standard,none,48,M_C,62,R_B,60,W_B,56.67,Pass,average
+792,female,group D,some college,free/reduced,none,60,M_B,66,R_B,70,W_B,65.33,Pass,average
+793,male,group D,high school,free/reduced,none,66,M_B,74,R_B,69,W_B,69.67,Pass,average
+794,male,group E,some high school,standard,completed,89,M_A,84,R_A,77,W_B,83.33,Pass,good
+795,female,group B,high school,standard,none,42,M_C,52,R_B,51,W_B,48.33,Fail,below average
+796,female,group E,associate's degree,free/reduced,completed,57,M_B,68,R_B,73,W_B,66.0,Pass,average
+797,male,group D,high school,standard,none,70,M_B,70,R_B,70,W_B,70.0,Pass,average
+798,female,group E,associate's degree,free/reduced,none,70,M_B,84,R_A,81,W_A,78.33,Pass,good
+799,male,group E,some college,standard,none,69,M_B,60,R_B,54,W_B,61.0,Pass,average
+800,female,group C,associate's degree,standard,none,52,M_B,55,R_B,57,W_B,54.67,Pass,below average
+801,male,group C,some high school,standard,completed,67,M_B,73,R_B,68,W_B,69.33,Pass,average
+802,male,group C,some high school,standard,completed,76,M_B,80,R_A,73,W_B,76.33,Pass,good
+803,female,group E,associate's degree,standard,none,87,M_A,94,R_A,95,W_A,92.0,Pass,excellent
+804,female,group B,some college,standard,none,82,M_A,85,R_A,87,W_A,84.67,Pass,good
+805,female,group C,some college,standard,none,73,M_B,76,R_B,78,W_B,75.67,Pass,good
+806,male,group A,some college,free/reduced,none,75,M_B,81,R_A,74,W_B,76.67,Pass,good
+807,female,group D,some college,free/reduced,none,64,M_B,74,R_B,75,W_B,71.0,Pass,good
+808,female,group E,high school,free/reduced,none,41,M_C,45,R_C,40,W_C,42.0,Fail,below average
+809,male,group C,high school,standard,none,90,M_A,75,R_B,69,W_B,78.0,Pass,good
+810,male,group B,bachelor's degree,standard,none,59,M_B,54,R_B,51,W_B,54.67,Pass,below average
+811,male,group A,some high school,standard,none,51,M_B,31,R_C,36,W_C,39.33,Fail,weak
+812,male,group A,high school,free/reduced,none,45,M_C,47,R_C,49,W_C,47.0,Fail,below average
+813,female,group C,master's degree,standard,completed,54,M_B,64,R_B,67,W_B,61.67,Pass,average
+814,male,group E,some high school,standard,completed,87,M_A,84,R_A,76,W_B,82.33,Pass,good
+815,female,group C,high school,standard,none,72,M_B,80,R_A,83,W_A,78.33,Pass,good
+816,male,group B,some high school,standard,completed,94,M_A,86,R_A,87,W_A,89.0,Pass,excellent
+817,female,group A,bachelor's degree,standard,none,45,M_C,59,R_B,64,W_B,56.0,Pass,average
+818,male,group D,bachelor's degree,free/reduced,completed,61,M_B,70,R_B,76,W_B,69.0,Pass,average
+819,female,group B,high school,free/reduced,none,60,M_B,72,R_B,68,W_B,66.67,Pass,average
+820,female,group C,some high school,standard,none,77,M_B,91,R_A,88,W_A,85.33,Pass,excellent
+821,female,group A,some high school,standard,completed,85,M_A,90,R_A,92,W_A,89.0,Pass,excellent
+822,female,group D,bachelor's degree,free/reduced,none,78,M_B,90,R_A,93,W_A,87.0,Pass,excellent
+823,male,group E,some college,free/reduced,completed,49,M_C,52,R_B,51,W_B,50.67,Pass,below average
+824,female,group B,high school,free/reduced,none,71,M_B,87,R_A,82,W_A,80.0,Pass,good
+825,female,group C,some high school,free/reduced,none,48,M_C,58,R_B,52,W_B,52.67,Pass,below average
+826,male,group C,high school,standard,none,62,M_B,67,R_B,58,W_B,62.33,Pass,average
+827,female,group C,associate's degree,free/reduced,completed,56,M_B,68,R_B,70,W_B,64.67,Pass,average
+828,female,group C,some high school,standard,none,65,M_B,69,R_B,76,W_B,70.0,Pass,average
+829,female,group D,some high school,free/reduced,completed,69,M_B,86,R_A,81,W_A,78.67,Pass,good
+830,male,group B,some high school,standard,none,68,M_B,54,R_B,53,W_B,58.33,Pass,average
+831,female,group A,some college,free/reduced,none,61,M_B,60,R_B,57,W_B,59.33,Pass,average
+832,female,group C,bachelor's degree,free/reduced,completed,74,M_B,86,R_A,89,W_A,83.0,Pass,good
+833,male,group A,bachelor's degree,standard,none,64,M_B,60,R_B,58,W_B,60.67,Pass,average
+834,female,group B,high school,standard,completed,77,M_B,82,R_A,89,W_A,82.67,Pass,good
+835,male,group B,some college,standard,none,58,M_B,50,R_B,45,W_C,51.0,Pass,below average
+836,female,group C,high school,standard,completed,60,M_B,64,R_B,74,W_B,66.0,Pass,average
+837,male,group E,high school,standard,none,73,M_B,64,R_B,57,W_B,64.67,Pass,average
+838,female,group A,high school,standard,completed,75,M_B,82,R_A,79,W_B,78.67,Pass,good
+839,male,group B,associate's degree,free/reduced,completed,58,M_B,57,R_B,53,W_B,56.0,Pass,average
+840,female,group C,associate's degree,standard,none,66,M_B,77,R_B,73,W_B,72.0,Pass,good
+841,female,group D,high school,free/reduced,none,39,M_C,52,R_B,46,W_C,45.67,Fail,below average
+842,male,group C,some high school,standard,none,64,M_B,58,R_B,51,W_B,57.67,Pass,average
+843,female,group B,high school,free/reduced,completed,23,M_C,44,R_C,36,W_C,34.33,Fail,weak
+844,male,group B,some college,free/reduced,completed,74,M_B,77,R_B,76,W_B,75.67,Pass,good
+845,female,group D,some high school,free/reduced,completed,40,M_C,65,R_B,64,W_B,56.33,Pass,average
+846,male,group E,master's degree,standard,none,90,M_A,85,R_A,84,W_A,86.33,Pass,excellent
+847,male,group C,master's degree,standard,completed,91,M_A,85,R_A,85,W_A,87.0,Pass,excellent
+848,male,group D,high school,standard,none,64,M_B,54,R_B,50,W_B,56.0,Pass,average
+849,female,group C,high school,standard,none,59,M_B,72,R_B,68,W_B,66.33,Pass,average
+850,male,group D,associate's degree,standard,none,80,M_A,75,R_B,69,W_B,74.67,Pass,good
+851,male,group C,master's degree,standard,none,71,M_B,67,R_B,67,W_B,68.33,Pass,average
+852,female,group A,high school,standard,none,61,M_B,68,R_B,63,W_B,64.0,Pass,average
+853,female,group E,some college,standard,none,87,M_A,85,R_A,93,W_A,88.33,Pass,excellent
+854,male,group E,some high school,standard,none,82,M_A,67,R_B,61,W_B,70.0,Pass,average
+855,male,group C,some high school,standard,none,62,M_B,64,R_B,55,W_B,60.33,Pass,average
+856,female,group B,bachelor's degree,standard,none,97,M_A,97,R_A,96,W_A,96.67,Pass,excellent
+857,male,group B,some college,free/reduced,none,75,M_B,68,R_B,65,W_B,69.33,Pass,average
+858,female,group C,bachelor's degree,standard,none,65,M_B,79,R_B,81,W_A,75.0,Pass,good
+859,male,group B,high school,standard,completed,52,M_B,49,R_C,46,W_C,49.0,Fail,below average
+860,male,group C,associate's degree,free/reduced,none,87,M_A,73,R_B,72,W_B,77.33,Pass,good
+861,female,group C,associate's degree,standard,none,53,M_B,62,R_B,53,W_B,56.0,Pass,average
+862,female,group E,master's degree,free/reduced,none,81,M_A,86,R_A,87,W_A,84.67,Pass,good
+863,male,group D,bachelor's degree,free/reduced,completed,39,M_C,42,R_C,38,W_C,39.67,Fail,weak
+864,female,group C,some college,standard,completed,71,M_B,71,R_B,80,W_A,74.0,Pass,good
+865,male,group C,associate's degree,standard,none,97,M_A,93,R_A,91,W_A,93.67,Pass,excellent
+866,male,group D,some college,standard,completed,82,M_A,82,R_A,88,W_A,84.0,Pass,good
+867,male,group C,high school,free/reduced,none,59,M_B,53,R_B,52,W_B,54.67,Pass,below average
+868,male,group B,associate's degree,standard,none,61,M_B,42,R_C,41,W_C,48.0,Fail,below average
+869,male,group E,associate's degree,free/reduced,completed,78,M_B,74,R_B,72,W_B,74.67,Pass,good
+870,male,group C,associate's degree,free/reduced,none,49,M_C,51,R_B,51,W_B,50.33,Pass,below average
+871,male,group B,high school,standard,none,59,M_B,58,R_B,47,W_C,54.67,Pass,below average
+872,female,group C,some college,standard,completed,70,M_B,72,R_B,76,W_B,72.67,Pass,good
+873,male,group B,associate's degree,standard,completed,82,M_A,84,R_A,78,W_B,81.33,Pass,good
+874,male,group E,associate's degree,free/reduced,none,90,M_A,90,R_A,82,W_A,87.33,Pass,excellent
+875,female,group C,bachelor's degree,free/reduced,none,43,M_C,62,R_B,61,W_B,55.33,Pass,average
+876,male,group C,some college,free/reduced,none,80,M_A,64,R_B,66,W_B,70.0,Pass,average
+877,male,group D,some college,standard,none,81,M_A,82,R_A,84,W_A,82.33,Pass,good
+878,male,group C,some high school,standard,none,57,M_B,61,R_B,54,W_B,57.33,Pass,average
+879,female,group D,some high school,standard,none,59,M_B,72,R_B,80,W_A,70.33,Pass,good
+880,female,group D,associate's degree,standard,none,64,M_B,76,R_B,74,W_B,71.33,Pass,good
+881,male,group C,bachelor's degree,standard,completed,63,M_B,64,R_B,66,W_B,64.33,Pass,average
+882,female,group E,bachelor's degree,standard,completed,71,M_B,70,R_B,70,W_B,70.33,Pass,good
+883,female,group B,high school,free/reduced,none,64,M_B,73,R_B,71,W_B,69.33,Pass,average
+884,male,group D,bachelor's degree,free/reduced,none,55,M_B,46,R_C,44,W_C,48.33,Fail,below average
+885,female,group E,associate's degree,standard,none,51,M_B,51,R_B,54,W_B,52.0,Pass,below average
+886,female,group C,associate's degree,standard,completed,62,M_B,76,R_B,80,W_A,72.67,Pass,good
+887,female,group E,associate's degree,standard,completed,93,M_A,100,R_A,95,W_A,96.0,Pass,excellent
+888,male,group C,high school,free/reduced,none,54,M_B,72,R_B,59,W_B,61.67,Pass,average
+889,female,group D,some college,free/reduced,none,69,M_B,65,R_B,74,W_B,69.33,Pass,average
+890,male,group D,high school,free/reduced,none,44,M_C,51,R_B,48,W_C,47.67,Fail,below average
+891,female,group E,some college,standard,completed,86,M_A,85,R_A,91,W_A,87.33,Pass,excellent
+892,female,group E,associate's degree,standard,none,85,M_A,92,R_A,85,W_A,87.33,Pass,excellent
+893,female,group A,master's degree,free/reduced,none,50,M_B,67,R_B,73,W_B,63.33,Pass,average
+894,male,group D,some high school,standard,completed,88,M_A,74,R_B,75,W_B,79.0,Pass,good
+895,female,group E,associate's degree,standard,none,59,M_B,62,R_B,69,W_B,63.33,Pass,average
+896,female,group E,some high school,free/reduced,none,32,M_C,34,R_C,38,W_C,34.67,Fail,weak
+897,male,group B,high school,free/reduced,none,36,M_C,29,R_C,27,W_C,30.67,Fail,weak
+898,female,group B,some high school,free/reduced,completed,63,M_B,78,R_B,79,W_B,73.33,Pass,good
+899,male,group D,associate's degree,standard,completed,67,M_B,54,R_B,63,W_B,61.33,Pass,average
+900,female,group D,some high school,standard,completed,65,M_B,78,R_B,82,W_A,75.0,Pass,good
+901,male,group D,master's degree,standard,none,85,M_A,84,R_A,89,W_A,86.0,Pass,excellent
+902,female,group C,master's degree,standard,none,73,M_B,78,R_B,74,W_B,75.0,Pass,good
+903,female,group A,high school,free/reduced,completed,34,M_C,48,R_C,41,W_C,41.0,Fail,below average
+904,female,group D,bachelor's degree,free/reduced,completed,93,M_A,100,R_A,100,W_A,97.67,Pass,excellent
+905,female,group D,some high school,free/reduced,none,67,M_B,84,R_A,84,W_A,78.33,Pass,good
+906,male,group D,some college,standard,none,88,M_A,77,R_B,77,W_B,80.67,Pass,good
+907,male,group B,high school,standard,none,57,M_B,48,R_C,51,W_B,52.0,Pass,below average
+908,female,group D,some college,standard,completed,79,M_B,84,R_A,91,W_A,84.67,Pass,good
+909,female,group C,bachelor's degree,free/reduced,none,67,M_B,75,R_B,72,W_B,71.33,Pass,good
+910,male,group E,bachelor's degree,standard,completed,70,M_B,64,R_B,70,W_B,68.0,Pass,average
+911,male,group D,bachelor's degree,free/reduced,none,50,M_B,42,R_C,48,W_C,46.67,Fail,below average
+912,female,group A,some college,standard,none,69,M_B,84,R_A,82,W_A,78.33,Pass,good
+913,female,group C,bachelor's degree,standard,completed,52,M_B,61,R_B,66,W_B,59.67,Pass,average
+914,female,group C,bachelor's degree,free/reduced,completed,47,M_C,62,R_B,66,W_B,58.33,Pass,average
+915,female,group B,associate's degree,free/reduced,none,46,M_C,61,R_B,55,W_B,54.0,Pass,below average
+916,female,group E,some college,standard,none,68,M_B,70,R_B,66,W_B,68.0,Pass,average
+917,male,group E,bachelor's degree,standard,completed,100,M_A,100,R_A,100,W_A,100.0,Pass,excellent
+918,female,group C,high school,standard,none,44,M_C,61,R_B,52,W_B,52.33,Pass,below average
+919,female,group C,associate's degree,standard,completed,57,M_B,77,R_B,80,W_A,71.33,Pass,good
+920,male,group B,some college,standard,completed,91,M_A,96,R_A,91,W_A,92.67,Pass,excellent
+921,male,group D,high school,free/reduced,none,69,M_B,70,R_B,67,W_B,68.67,Pass,average
+922,female,group C,high school,free/reduced,none,35,M_C,53,R_B,46,W_C,44.67,Fail,below average
+923,male,group D,high school,standard,none,72,M_B,66,R_B,66,W_B,68.0,Pass,average
+924,female,group B,associate's degree,free/reduced,none,54,M_B,65,R_B,65,W_B,61.33,Pass,average
+925,male,group D,high school,free/reduced,none,74,M_B,70,R_B,69,W_B,71.0,Pass,good
+926,male,group E,some high school,standard,completed,74,M_B,64,R_B,60,W_B,66.0,Pass,average
+927,male,group E,associate's degree,free/reduced,none,64,M_B,56,R_B,52,W_B,57.33,Pass,average
+928,female,group D,high school,free/reduced,completed,65,M_B,61,R_B,71,W_B,65.67,Pass,average
+929,male,group E,associate's degree,free/reduced,completed,46,M_C,43,R_C,44,W_C,44.33,Fail,below average
+930,female,group C,some high school,free/reduced,none,48,M_C,56,R_B,51,W_B,51.67,Pass,below average
+931,male,group C,some college,free/reduced,completed,67,M_B,74,R_B,70,W_B,70.33,Pass,good
+932,male,group D,some college,free/reduced,none,62,M_B,57,R_B,62,W_B,60.33,Pass,average
+933,male,group D,associate's degree,free/reduced,completed,61,M_B,71,R_B,73,W_B,68.33,Pass,average
+934,male,group C,bachelor's degree,free/reduced,completed,70,M_B,75,R_B,74,W_B,73.0,Pass,good
+935,male,group C,associate's degree,standard,completed,98,M_A,87,R_A,90,W_A,91.67,Pass,excellent
+936,male,group D,some college,free/reduced,none,70,M_B,63,R_B,58,W_B,63.67,Pass,average
+937,male,group A,associate's degree,standard,none,67,M_B,57,R_B,53,W_B,59.0,Pass,average
+938,female,group E,high school,free/reduced,none,57,M_B,58,R_B,57,W_B,57.33,Pass,average
+939,male,group D,some college,standard,completed,85,M_A,81,R_A,85,W_A,83.67,Pass,good
+940,male,group D,some high school,standard,completed,77,M_B,68,R_B,69,W_B,71.33,Pass,good
+941,male,group C,master's degree,free/reduced,completed,72,M_B,66,R_B,72,W_B,70.0,Pass,average
+942,female,group D,master's degree,standard,none,78,M_B,91,R_A,96,W_A,88.33,Pass,excellent
+943,male,group C,high school,standard,none,81,M_A,66,R_B,64,W_B,70.33,Pass,good
+944,male,group A,some high school,free/reduced,completed,61,M_B,62,R_B,61,W_B,61.33,Pass,average
+945,female,group B,high school,standard,none,58,M_B,68,R_B,61,W_B,62.33,Pass,average
+946,female,group C,associate's degree,standard,none,54,M_B,61,R_B,58,W_B,57.67,Pass,average
+947,male,group B,high school,standard,none,82,M_A,82,R_A,80,W_A,81.33,Pass,good
+948,female,group D,some college,free/reduced,none,49,M_C,58,R_B,60,W_B,55.67,Pass,average
+949,male,group B,some high school,free/reduced,completed,49,M_C,50,R_B,52,W_B,50.33,Pass,below average
+950,female,group E,high school,free/reduced,completed,57,M_B,75,R_B,73,W_B,68.33,Pass,average
+951,male,group E,high school,standard,none,94,M_A,73,R_B,71,W_B,79.33,Pass,good
+952,female,group D,some college,standard,completed,75,M_B,77,R_B,83,W_A,78.33,Pass,good
+953,female,group E,some high school,free/reduced,none,74,M_B,74,R_B,72,W_B,73.33,Pass,good
+954,male,group C,high school,standard,completed,58,M_B,52,R_B,54,W_B,54.67,Pass,below average
+955,female,group C,some college,standard,none,62,M_B,69,R_B,69,W_B,66.67,Pass,average
+956,male,group E,associate's degree,standard,none,72,M_B,57,R_B,62,W_B,63.67,Pass,average
+957,male,group C,some college,standard,none,84,M_A,87,R_A,81,W_A,84.0,Pass,good
+958,female,group D,master's degree,standard,none,92,M_A,100,R_A,100,W_A,97.33,Pass,excellent
+959,female,group D,high school,standard,none,45,M_C,63,R_B,59,W_B,55.67,Pass,average
+960,male,group C,high school,standard,none,75,M_B,81,R_A,71,W_B,75.67,Pass,good
+961,female,group A,some college,standard,none,56,M_B,58,R_B,64,W_B,59.33,Pass,average
+962,female,group D,some high school,free/reduced,none,48,M_C,54,R_B,53,W_B,51.67,Pass,below average
+963,female,group E,associate's degree,standard,none,100,M_A,100,R_A,100,W_A,100.0,Pass,excellent
+964,female,group C,some high school,free/reduced,completed,65,M_B,76,R_B,75,W_B,72.0,Pass,good
+965,male,group D,some college,standard,none,72,M_B,57,R_B,58,W_B,62.33,Pass,average
+966,female,group D,some college,standard,none,62,M_B,70,R_B,72,W_B,68.0,Pass,average
+967,male,group A,some high school,standard,completed,66,M_B,68,R_B,64,W_B,66.0,Pass,average
+968,male,group C,some college,standard,none,63,M_B,63,R_B,60,W_B,62.0,Pass,average
+969,female,group E,associate's degree,standard,none,68,M_B,76,R_B,67,W_B,70.33,Pass,good
+970,female,group B,bachelor's degree,standard,none,75,M_B,84,R_A,80,W_A,79.67,Pass,good
+971,female,group D,bachelor's degree,standard,none,89,M_A,100,R_A,100,W_A,96.33,Pass,excellent
+972,male,group C,some high school,standard,completed,78,M_B,72,R_B,69,W_B,73.0,Pass,good
+973,female,group A,high school,free/reduced,completed,53,M_B,50,R_B,60,W_B,54.33,Pass,below average
+974,female,group D,some college,free/reduced,none,49,M_C,65,R_B,61,W_B,58.33,Pass,average
+975,female,group A,some college,standard,none,54,M_B,63,R_B,67,W_B,61.33,Pass,average
+976,female,group C,some college,standard,completed,64,M_B,82,R_A,77,W_B,74.33,Pass,good
+977,male,group B,some college,free/reduced,completed,60,M_B,62,R_B,60,W_B,60.67,Pass,average
+978,male,group C,associate's degree,standard,none,62,M_B,65,R_B,58,W_B,61.67,Pass,average
+979,male,group D,high school,standard,completed,55,M_B,41,R_C,48,W_C,48.0,Fail,below average
+980,female,group C,associate's degree,standard,none,91,M_A,95,R_A,94,W_A,93.33,Pass,excellent
+981,female,group B,high school,free/reduced,none,8,M_C,24,R_C,23,W_C,18.33,Fail,weak
+982,male,group D,some high school,standard,none,81,M_A,78,R_B,78,W_B,79.0,Pass,good
+983,male,group B,some high school,standard,completed,79,M_B,85,R_A,86,W_A,83.33,Pass,good
+984,female,group A,some college,standard,completed,78,M_B,87,R_A,91,W_A,85.33,Pass,excellent
+985,female,group C,some high school,standard,none,74,M_B,75,R_B,82,W_A,77.0,Pass,good
+986,male,group A,high school,standard,none,57,M_B,51,R_B,54,W_B,54.0,Pass,below average
+987,female,group C,associate's degree,standard,none,40,M_C,59,R_B,51,W_B,50.0,Pass,below average
+988,male,group E,some high school,standard,completed,81,M_A,75,R_B,76,W_B,77.33,Pass,good
+989,female,group A,some high school,free/reduced,none,44,M_C,45,R_C,45,W_C,44.67,Fail,below average
+990,female,group D,some college,free/reduced,completed,67,M_B,86,R_A,83,W_A,78.67,Pass,good
+991,male,group E,high school,free/reduced,completed,86,M_A,81,R_A,75,W_B,80.67,Pass,good
+992,female,group B,some high school,standard,completed,65,M_B,82,R_A,78,W_B,75.0,Pass,good
+993,female,group D,associate's degree,free/reduced,none,55,M_B,76,R_B,76,W_B,69.0,Pass,average
+994,female,group D,bachelor's degree,free/reduced,none,62,M_B,72,R_B,74,W_B,69.33,Pass,average
+995,male,group A,high school,standard,none,63,M_B,63,R_B,62,W_B,62.67,Pass,average
+996,female,group E,master's degree,standard,completed,88,M_A,99,R_A,95,W_A,94.0,Pass,excellent
+997,male,group C,high school,free/reduced,none,62,M_B,55,R_B,55,W_B,57.33,Pass,average
+998,female,group C,high school,free/reduced,completed,59,M_B,71,R_B,65,W_B,65.0,Pass,average
+999,female,group D,some college,standard,completed,68,M_B,78,R_B,77,W_B,74.33,Pass,good
+1000,female,group D,some college,free/reduced,none,77,M_B,86,R_A,86,W_A,83.0,Pass,good
