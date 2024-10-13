@@ -11,6 +11,7 @@ from matplotlib.projections import register_projection
 from matplotlib.spines import Spine
 from matplotlib.transforms import Affine2D
 
+
 df = pd.read_csv('https://raw.githubusercontent.com/J1nn6o/Seminar_DS/refs/heads/main/newdataframe.csv')
 # Thêm hậu tố để tránh trùng lặp giữa 'academic_performance' và 'final_academic_performance'
 df['final_academic_performance'] = df['final_academic_performance'].astype(str) + ' '
