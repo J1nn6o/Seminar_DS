@@ -468,10 +468,10 @@ def get_filtered_students(selected_subject, filter_type='highest', n=10):
 if __name__ == "__main__":
     col1, col2, col3 = st.columns((1.5,1.5,10), gap = 'large')
     with col1:
-        st.image("D:\Seminar\Images\logo hcmus new.png", width=150)
+        st.image("https://github.com/J1nn6o/Seminar_DS/blob/main/Images/logo%20hcmus%20new.png?raw=true", width=150)
 
     with col2:
-        st.image("D:\Seminar\Images\Logo-Math-CS-cyan-192.png", width = 130)
+        st.image("https://github.com/J1nn6o/Seminar_DS/blob/main/Images/Logo-Math-CS-cyan-192.png?raw=true", width = 130)
     
     with col3:
         st.title("Student Performance Dashboard")
